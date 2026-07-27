@@ -577,6 +577,7 @@ Web-based workspace with chat, terminal, memory browser, skills manager, and ins
 - [hermes-tweet](https://github.com/Xquik-dev/hermes-tweet) by [Xquik](https://github.com/Xquik-dev) — Native Hermes Agent X/Twitter plugin for tweet search, reply reading, user lookup, monitoring, posting, replies, DMs, and approval-gated X actions through Xquik. **[beta]**
 - [microsoft-workspace-skill](https://github.com/Andrew-Girgis/microsoft-workspace-skill) by [Andrew-Girgis](https://github.com/Andrew-Girgis) — Full Outlook/Hotmail/Microsoft 365 integration via Graph API. Email, calendar, contacts, free/busy. OAuth2 auto-refresh. Preview-before-send pattern. **[beta]**
 - [tweetclaw](https://github.com/Xquik-dev/tweetclaw) by [Xquik](https://github.com/Xquik-dev) — OpenClaw plugin and agent skill to scrape tweets, search tweet replies, export followers, look up users, run media, monitors, webhooks, giveaway draws, and approval-gated posts through Xquik. **[beta]**
+- [twitr-skills](https://github.com/lnvestor/twitr-skills) by [lnvestor](https://github.com/lnvestor) — Five X/Twitter skills for agents: live reads and search, bulk dataset exports, real-time account/keyword monitors with signed webhooks, publishing through a connected account, and an unattended presence routine. Pay-per-call in USDC (x402 on Base/Solana, MPP on Tempo) — no API key, no signup. **[production]**
 
 ### 📊 Productivity & Tasks
 
