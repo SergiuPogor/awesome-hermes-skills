@@ -65,6 +65,7 @@ Browse the categories below. Every entry is tagged so you know what you're getti
   - [📺 Media & Transcripts](#-media--transcripts)
   - [🧠 Memory & Knowledge](#-memory--knowledge)
   - [🔍 Search & Research](#-search--research)
+  - [📈 Marketing & Growth](#-marketing--growth)
   - [💻 Dev & Skill Authoring](#-dev--skill-authoring)
   - [🌐 Browser & Web](#-browser--web)
   - [✉️ Communication & Social](#%EF%B8%8F-communication--social)
@@ -526,6 +527,10 @@ Web-based workspace with chat, terminal, memory browser, skills manager, and ins
 - [hermes-web-search-plus](https://github.com/robbyczgw-cla/hermes-web-search-plus) by [robbyczgw-cla](https://github.com/robbyczgw-cla) — Multi-provider web search with intelligent routing across Serper, Tavily, Exa, and more. Replaces built-in search with better quality + source diversity. **[beta]**
 - [Not Human Search](https://github.com/unitedideas/nothumansearch-mcp) by [unitedideas](https://github.com/unitedideas) — MCP server for discovering other MCP servers. Indexes 8,600+ agent-friendly sites with agentic scoring. Lets Hermes find new tools on its own. **[production]**
 - [consensus-mcp-hermes](https://github.com/ahmdngi/consensus-mcp-hermes) by [ahmdngi](https://github.com/ahmdngi) — Connect 200M+ peer-reviewed research papers to Hermes via the Consensus MCP server. OAuth setup guide for headless environments with mcp-remote bridge. **[beta]**
+
+### 📈 Marketing & Growth
+
+- [NotFair](https://github.com/nowork-studio/NotFair) by [NoWork Studio](https://github.com/nowork-studio) — 42 host-agnostic skills for SEO, GEO, Google Ads, and Meta Ads, with a documented Hermes workspace install and approval-gated MCP actions for connected marketing accounts. **[beta]**
 
 ### 💻 Dev & Skill Authoring
 
