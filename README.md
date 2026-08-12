@@ -5,12 +5,12 @@
 # Awesome Hermes Skills
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Skills Count](https://img.shields.io/badge/skills-354-blue?style=flat-square)](#-table-of-contents)
+[![Skills Count](https://img.shields.io/badge/skills-353-blue?style=flat-square)](#-table-of-contents)
 [![Last Update](https://img.shields.io/github/last-commit/ZeroPointRepo/awesome-hermes-skills?label=Last%20update&style=flat-square)](https://github.com/ZeroPointRepo/awesome-hermes-skills/pulls?q=is%3Apr+is%3Amerged+sort%3Aupdated-desc)
 [![Hermes](https://img.shields.io/badge/Hermes-v0.20.0-purple?style=flat-square)](https://github.com/NousResearch/hermes-agent/releases)
 [![Agent Plugins](https://img.shields.io/badge/Agent%20Plugins-v1.0.0-teal?style=flat-square)](https://agent-plugins.org)
 
-> A curated, install-ready directory for the [Hermes Agent](https://github.com/NousResearch/hermes-agent) ecosystem — the self-improving AI agent from [Nous Research](https://nousresearch.com). Covers the **79 built-in skills** and **114-skill optional catalog** that ship with Hermes v0.20.0, plus **161 community skills, plugins, agent profiles, memory providers, surfaces, and tools** vetted for quality.
+> A curated, install-ready directory for the [Hermes Agent](https://github.com/NousResearch/hermes-agent) ecosystem — the self-improving AI agent from [Nous Research](https://nousresearch.com). Covers the **79 built-in skills** and **114-skill optional catalog** that ship with Hermes v0.20.0, plus **160 community skills, plugins, agent profiles, memory providers, surfaces, and tools** vetted for quality.
 
 Hermes is the only agent with a real learning loop. It writes its own skills from your workflows, searches its own past conversations, and runs anywhere — a $5 VPS, a GPU cluster, serverless, or your laptop. But the agent is only as powerful as the skills you give it. **This list is the shortcut.** Pick three, install in a minute, and your agent is twice as useful by tonight.
 
