@@ -92,7 +92,7 @@ Not sure which? Pick the closest one and say so in the PR. Putting it in the wro
 
 ## Reporting a broken entry
 
-Open an issue with the [report-broken](../../issues/new?template=report-broken.yml) template, or just say which line is dead. A weekly job sweeps for dead links, but it doesn't catch repos that went empty or abandoned.
+Open an issue with the [report-broken](https://github.com/ZeroPointRepo/awesome-hermes-skills/issues/new?template=report-broken.yml) template, or just say which line is dead. A weekly job sweeps for dead links, but it doesn't catch repos that went empty or abandoned.
 
 ## A note on our own entries
 

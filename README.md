@@ -5,12 +5,12 @@
 # Awesome Hermes Skills
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Skills Count](https://img.shields.io/badge/skills-346-blue?style=flat-square)](#-table-of-contents)
+[![Skills Count](https://img.shields.io/badge/skills-354-blue?style=flat-square)](#-table-of-contents)
 [![Last Update](https://img.shields.io/github/last-commit/ZeroPointRepo/awesome-hermes-skills?label=Last%20update&style=flat-square)](https://github.com/ZeroPointRepo/awesome-hermes-skills/pulls?q=is%3Apr+is%3Amerged+sort%3Aupdated-desc)
 [![Hermes](https://img.shields.io/badge/Hermes-v0.20.0-purple?style=flat-square)](https://github.com/NousResearch/hermes-agent/releases)
 [![Agent Plugins](https://img.shields.io/badge/Agent%20Plugins-v1.0.0-teal?style=flat-square)](https://agent-plugins.org)
 
-> A curated, install-ready directory for the [Hermes Agent](https://github.com/NousResearch/hermes-agent) ecosystem — the self-improving AI agent from [Nous Research](https://nousresearch.com). Covers the **79 built-in skills** and **114-skill optional catalog** that ship with Hermes v0.20.0, plus **153 community skills, plugins, agent profiles, memory providers, surfaces, and tools** vetted for quality.
+> A curated, install-ready directory for the [Hermes Agent](https://github.com/NousResearch/hermes-agent) ecosystem — the self-improving AI agent from [Nous Research](https://nousresearch.com). Covers the **79 built-in skills** and **114-skill optional catalog** that ship with Hermes v0.20.0, plus **161 community skills, plugins, agent profiles, memory providers, surfaces, and tools** vetted for quality.
 
 Hermes is the only agent with a real learning loop. It writes its own skills from your workflows, searches its own past conversations, and runs anywhere — a $5 VPS, a GPU cluster, serverless, or your laptop. But the agent is only as powerful as the skills you give it. **This list is the shortcut.** Pick three, install in a minute, and your agent is twice as useful by tonight.
 
@@ -112,7 +112,7 @@ If your agent can't read YouTube, half the internet is invisible to it. This ski
 npx skills@latest add mattpocock/skills
 ```
 
-Fifteen battle-tested skills from the Total TypeScript creator (60k+ newsletter readers). The `grill-me` and `grill-with-docs` skills force the agent to interview you before writing code — the single best fix for "the agent didn't do what I wanted." `tdd` enforces red-green-refactor. `improve-codebase-architecture` rescues codebases that have become balls of mud. `caveman` cuts ~75% of token usage on long sessions. Built for real engineering work, not vibe coding. Pick the ones you want with the installer's interactive picker.
+Fifteen battle-tested skills from the Total TypeScript creator (60k+ newsletter readers). The `grill-me` and `grill-with-docs` skills force the agent to interview you before writing code — the single best fix for "the agent didn't do what I wanted." `tdd` enforces red-green-refactor. `improve-codebase-architecture` rescues codebases that have become balls of mud. `wayfinder` maps work too big for one session onto decision tickets. Built for real engineering work, not vibe coding. Pick the ones you want with the installer's interactive picker.
 
 ### 🔬 SkillClaw
 **production** · [AMAP-ML](https://github.com/AMAP-ML) · [Repo](https://github.com/AMAP-ML/SkillClaw) · 705★
@@ -541,19 +541,29 @@ Web-based workspace with chat, terminal, memory browser, skills manager, and ins
 #### 🔥 mattpocock/skills — Engineering bundle
 > Install all at once: `npx skills@latest add mattpocock/skills` — pick which skills you want at install time.
 
-- [diagnose](https://github.com/mattpocock/skills/blob/main/skills/engineering/diagnose/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Disciplined diagnosis loop for hard bugs and perf regressions: reproduce → minimise → hypothesise → instrument → fix → regression-test. **[production]**
-- [git-guardrails-claude-code](https://github.com/mattpocock/skills/blob/main/skills/misc/git-guardrails-claude-code/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Block dangerous git commands (push, reset --hard, clean) before they execute. Hooks-based. **[production]**
-- [github-triage](https://github.com/mattpocock/skills/blob/main/skills/engineering/github-triage/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Triage GitHub issues through a label-based state machine. **[production]**
-- [grill-with-docs](https://github.com/mattpocock/skills/blob/main/skills/engineering/grill-with-docs/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Grilling session that challenges your plan against the existing domain model, sharpens terminology, updates `CONTEXT.md` and ADRs inline. The most popular skill in the pack. **[production]**
-- [improve-codebase-architecture](https://github.com/mattpocock/skills/blob/main/skills/engineering/improve-codebase-architecture/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Find deepening opportunities in a codebase, informed by domain language in `CONTEXT.md` and decisions in `docs/adr/`. Run it every few days. **[production]**
-- [migrate-to-shoehorn](https://github.com/mattpocock/skills/blob/main/skills/misc/migrate-to-shoehorn/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Migrate test files from `as` type assertions to @total-typescript/shoehorn. **[production]**
-- [scaffold-exercises](https://github.com/mattpocock/skills/blob/main/skills/misc/scaffold-exercises/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Create exercise directory structures with sections, problems, solutions, explainers. **[production]**
-- [setup-pre-commit](https://github.com/mattpocock/skills/blob/main/skills/misc/setup-pre-commit/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Set up Husky pre-commit hooks with lint-staged, Prettier, type checking, and tests. **[production]**
-- [tdd](https://github.com/mattpocock/skills/blob/main/skills/engineering/tdd/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Test-driven development with red-green-refactor loop. Builds features or fixes bugs one vertical slice at a time. **[production]**
-- [to-issues](https://github.com/mattpocock/skills/blob/main/skills/engineering/to-issues/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Break any plan, spec, or PRD into independently-grabbable GitHub issues using vertical slices. **[production]**
-- [to-prd](https://github.com/mattpocock/skills/blob/main/skills/engineering/to-prd/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Turn the current conversation into a PRD and submit it as a GitHub issue. No interview — synthesizes what you've discussed. **[production]**
-- [write-a-skill](https://github.com/mattpocock/skills/blob/main/skills/productivity/write-a-skill/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Create new skills with proper structure, progressive disclosure, and bundled resources. **[production]**
-- [zoom-out](https://github.com/mattpocock/skills/blob/main/skills/engineering/zoom-out/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Tell the agent to zoom out and give broader context or higher-level perspective on unfamiliar code. **[production]**
+- [ask-matt](https://github.com/mattpocock/skills/blob/main/skills/engineering/ask-matt/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Router over the rest of the pack: describe your situation, get told which skill or flow fits. **[production]**
+- [code-review](https://github.com/mattpocock/skills/blob/main/skills/engineering/code-review/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Reviews changes since a fixed point along two axes at once — does it follow the repo's standards, and does it match what the spec asked for. **[production]**
+- [codebase-design](https://github.com/mattpocock/skills/blob/main/skills/engineering/codebase-design/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Shared vocabulary for designing deep modules: where a seam goes, what makes code testable and AI-navigable. **[production]**
+- [diagnosing-bugs](https://github.com/mattpocock/skills/blob/main/skills/engineering/diagnosing-bugs/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Disciplined diagnosis loop for hard bugs and performance regressions: reproduce, minimise, hypothesise, instrument, fix. **[production]**
+- [domain-modeling](https://github.com/mattpocock/skills/blob/main/skills/engineering/domain-modeling/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Pins down a project's ubiquitous language and records architectural decisions as you go. **[production]**
+- [git-guardrails-claude-code](https://github.com/mattpocock/skills/blob/main/skills/misc/git-guardrails-claude-code/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Blocks dangerous git commands — push, `reset --hard`, `clean`, `branch -D` — before they execute. Hooks-based. **[production]**
+- [grill-with-docs](https://github.com/mattpocock/skills/blob/main/skills/engineering/grill-with-docs/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Relentless interview that sharpens a plan and writes the ADRs and glossary entries as it goes. The most popular skill in the pack. **[production]**
+- [implement](https://github.com/mattpocock/skills/blob/main/skills/engineering/implement/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Builds a piece of work from an existing spec or set of tickets, rather than from a conversation. **[production]**
+- [improve-codebase-architecture](https://github.com/mattpocock/skills/blob/main/skills/engineering/improve-codebase-architecture/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Scans for deepening opportunities, presents them as a visual HTML report, then grills through whichever you pick. **[production]**
+- [migrate-to-shoehorn](https://github.com/mattpocock/skills/blob/main/skills/misc/migrate-to-shoehorn/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Migrates test files from `as` type assertions to @total-typescript/shoehorn. **[production]**
+- [prototype](https://github.com/mattpocock/skills/blob/main/skills/engineering/prototype/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Builds a throwaway prototype to answer one design question, then throws it away. **[production]**
+- [research](https://github.com/mattpocock/skills/blob/main/skills/engineering/research/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Investigates a question against primary sources and commits the findings as Markdown in the repo. **[production]**
+- [resolving-merge-conflicts](https://github.com/mattpocock/skills/blob/main/skills/engineering/resolving-merge-conflicts/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Works through an in-progress merge or rebase conflict rather than guessing at it. **[production]**
+- [scaffold-exercises](https://github.com/mattpocock/skills/blob/main/skills/misc/scaffold-exercises/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Creates exercise directory structures with sections, problems, solutions and explainers. **[production]**
+- [setup-matt-pocock-skills](https://github.com/mattpocock/skills/blob/main/skills/engineering/setup-matt-pocock-skills/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Run once first: configures the repo's issue tracker, triage labels and domain doc layout for the rest of the pack. **[production]**
+- [setup-pre-commit](https://github.com/mattpocock/skills/blob/main/skills/misc/setup-pre-commit/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Sets up Husky pre-commit hooks with lint-staged, Prettier, type checking and tests. **[production]**
+- [tdd](https://github.com/mattpocock/skills/blob/main/skills/engineering/tdd/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Test-driven development with a red-green-refactor loop, one vertical slice at a time. **[production]**
+- [to-spec](https://github.com/mattpocock/skills/blob/main/skills/engineering/to-spec/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Turns the current conversation into a spec and publishes it to your issue tracker. No interview, just synthesis. **[production]**
+- [to-tickets](https://github.com/mattpocock/skills/blob/main/skills/engineering/to-tickets/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Breaks a plan or spec into tracer-bullet tickets, each declaring its blocking edges. **[production]**
+- [triage](https://github.com/mattpocock/skills/blob/main/skills/engineering/triage/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Moves issues and external PRs through a state machine of triage roles and writes agent-ready briefs. **[production]**
+- [wayfinder](https://github.com/mattpocock/skills/blob/main/skills/engineering/wayfinder/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Plans work too large for one agent session as a map of decision tickets, resolved one at a time. **[production]**
+- [wizard](https://github.com/mattpocock/skills/blob/main/skills/engineering/wizard/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Generates an interactive bash wizard for the steps only a human can do — dashboards, credentials, cutovers. **[production]**
+- [writing-for-agents](https://github.com/mattpocock/skills/blob/main/skills/productivity/writing-for-agents/SKILL.md) by [mattpocock](https://github.com/mattpocock) — How to write documents agents actually follow. Use it when authoring a skill or editing `AGENTS.md`. **[production]**
 
 #### Hermes-native skill builders
 
@@ -598,8 +608,8 @@ Web-based workspace with chat, terminal, memory browser, skills manager, and ins
 
 - [agent-analytics-hermes-plugin](https://github.com/Agent-Analytics/agent-analytics-hermes-plugin) by [Agent-Analytics](https://github.com/Agent-Analytics) — Native Signals dashboard tab for Hermes. Read-only multi-project analytics. **[beta]**
 - [before-you-build](https://github.com/bin1874/before-you-build-skill) by [bin1874](https://github.com/bin1874) — Product-risk review before implementation. Challenges demand, positioning, monetization, retention, trust, distribution, and feature-adoption risk before an agent starts building. Works with Hermes, OpenClaw, Claude Code, Codex, and other `SKILL.md`-compatible agents. **[production]**
-- [caveman](https://github.com/mattpocock/skills/blob/main/skills/productivity/caveman/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Ultra-compressed communication mode. Cuts token usage ~75% by dropping filler while keeping full technical accuracy. Critical for long sessions. **[production]**
 - [grill-me](https://github.com/mattpocock/skills/blob/main/skills/productivity/grill-me/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Get relentlessly interviewed by your agent until every branch of the decision tree is resolved. Use *every* time before making a change. Most popular skill in the pack. **[production]**
+- [handoff](https://github.com/mattpocock/skills/blob/main/skills/productivity/handoff/SKILL.md) by [mattpocock](https://github.com/mattpocock) — Compacts the current conversation into a handoff document another agent can pick up cold. **[production]**
 - [hermes-plugins](https://github.com/42-evey/hermes-plugins) by [42-evey](https://github.com/42-evey) — Goal management, inter-agent bridge, model selection, cost control. Four plugins covering common operational needs. **[beta]**
 - [onequery-cli](https://github.com/wordbricks/skills/tree/main/skills/onequery-cli) by [Wordbricks](https://github.com/wordbricks) — CLI skill for safe, auditable queries for agents against approved data sources. **[beta]**
 
@@ -621,7 +631,6 @@ Web-based workspace with chat, terminal, memory browser, skills manager, and ins
 - [nika](https://github.com/supernovae-st/nika) by [supernovae-st](https://github.com/supernovae-st) — Deterministic workflow runner Hermes can delegate to. Repeatable jobs become reviewable `.nika.yaml` files with plan, cost and permit checks up front and a hash-chained trace after. **[beta]**
 - [nix-hermes-agent](https://github.com/0xrsydn/nix-hermes-agent) by [0xrsydn](https://github.com/0xrsydn) — Nix package and NixOS module. Fully reproducible deployments via Nix flakes. **[beta]**
 - [openclaw-to-hermes](https://github.com/0xNyk/openclaw-to-hermes) by [0xNyk](https://github.com/0xNyk) — Community migration tool from OpenClaw to Hermes. **[beta]**
-- [portainer-stack-hermes](https://github.com/ellickjohnson/portainer-stack-hermes) by [ellickjohnson](https://github.com/ellickjohnson) — Docker Compose + Portainer + ttyd web terminal. Browser-accessible Hermes. **[experimental]**
 
 ### 💰 Finance, Payments & Crypto
 
@@ -638,7 +647,6 @@ Web-based workspace with chat, terminal, memory browser, skills manager, and ins
 
 ### 🤖 Multi-Agent & Swarms
 
-- [hermes-agent-acp-skill](https://github.com/Rainhoole/hermes-agent-acp-skill) by [Rainhoole](https://github.com/Rainhoole) — Multi-agent delegation bridging Hermes, Codex, Claude Code. Routes subtasks to best-suited agent. **[beta]**
 - [hermes-council](https://github.com/Ridwannurudeen/hermes-council) by [Ridwannurudeen](https://github.com/Ridwannurudeen) — Adversarial multi-perspective council MCP. Multiple AI viewpoints debate before commit. **[experimental]**
 - [NemoHermes](https://github.com/Hmbown/NemoHermes) by [Hmbown](https://github.com/Hmbown) — NVIDIA capability registry and Spark-aware routing. Routes compute-heavy tasks to GPU infrastructure. **[experimental]**
 - [opencode-hermes-multiagent](https://github.com/1ilkhamov/opencode-hermes-multiagent) by [1ilkhamov](https://github.com/1ilkhamov) — 17 specialized agents for OpenCode AI with structured interfaces. **[beta]**
@@ -773,8 +781,8 @@ Runtime variables `${PLUGIN_ROOT}` and `${PLUGIN_DATA}` resolve at load time. Pa
 
 **Converting an existing skill:**
 
-- [claude-plugin-converter](https://github.com/moonlight-lupin/agent-skills/tree/main/agent-ops/claude-plugin-converter) by [moonlight-lupin](https://github.com/moonlight-lupin) — analyses a Claude Code plugin and emits an installable Hermes plugin. The closest thing to a one-command migration today. **[beta]**
 - [Agent Plugins spec](https://github.com/agentplugins/agent-plugins-spec) — the normative source. Schemas at [agent-plugins.org/schemas](https://agent-plugins.org/schemas).
+- [claude-plugin-converter](https://github.com/moonlight-lupin/agent-skills/tree/main/agent-ops/claude-plugin-converter) by [moonlight-lupin](https://github.com/moonlight-lupin) — analyses a Claude Code plugin and emits an installable Hermes plugin. The closest thing to a one-command migration today. **[beta]**
 
 We list plugins alongside skills rather than splitting them into a second repo, because from a reader's point of view they answer the same question: *what can I give my agent today?*
 
