@@ -31,7 +31,6 @@ jobs:
             --max-retries 2
             --timeout 30
             --accept 200,206,429
-            --exclude-mail
             --exclude '^https://twitter\.com'
             --exclude '^https://x\.com'
             --exclude '^https://discord\.gg'
