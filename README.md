@@ -568,6 +568,7 @@ Web-based workspace with chat, terminal, memory browser, skills manager, and ins
 - [hermes-skill-distillation](https://github.com/beardthelion/hermes-skill-distillation) by [beardthelion](https://github.com/beardthelion) — Generates agentic training trajectories from real-world tasks for fine-tuning data. **[beta]**
 - [rtk-hermes](https://github.com/ogallotti/rtk-hermes) by [ogallotti](https://github.com/ogallotti) — Compresses terminal output via RTK before it reaches LLM context. 60-90% token reduction. Zero config. **[beta]**
 - [agent-skills/skill-maintainer](https://github.com/moonlight-lupin/agent-skills/tree/main/agent-ops/skill-maintainer) by [moonlight-lupin](https://github.com/moonlight-lupin) — End-to-end skill library maintenance: author, curate, track upstream drift, publish. **[beta]**
+- [hermes-cursor-dispatcher](https://github.com/matdev83/hermes-cursor-dispatcher/tree/main/skills/cursor-delegate) by [matdev83](https://github.com/matdev83) — Hermes Agent skill to safely delegate coding tasks to Cursor CLI with support for Grok-4.5-xhigh and isolated Git worktrees. **[production]**
 
 ### 🌐 Browser & Web
 
