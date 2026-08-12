@@ -65,6 +65,7 @@ Browse the categories below. Every entry is tagged so you know what you're getti
   - [📺 Media & Transcripts](#-media--transcripts)
   - [🧠 Memory & Knowledge](#-memory--knowledge)
   - [🔍 Search & Research](#-search--research)
+  - [📈 Marketing & Growth](#-marketing--growth)
   - [💻 Dev & Skill Authoring](#-dev--skill-authoring)
   - [🌐 Browser & Web](#-browser--web)
   - [✉️ Communication & Social](#%EF%B8%8F-communication--social)
@@ -528,6 +529,10 @@ Web-based workspace with chat, terminal, memory browser, skills manager, and ins
 - [consensus-mcp-hermes](https://github.com/ahmdngi/consensus-mcp-hermes) by [ahmdngi](https://github.com/ahmdngi) — Connect 200M+ peer-reviewed research papers to Hermes via the Consensus MCP server. OAuth setup guide for headless environments with mcp-remote bridge. **[beta]**
 - [agent-skills/deep-research](https://github.com/moonlight-lupin/agent-skills/tree/main/research/deep-research) by [moonlight-lupin](https://github.com/moonlight-lupin) — Autonomous Think→Search→Extract→Synthesize→Stop research engine producing cited reports. Inspired by PewDiePie's Odysseus. **[production]**
 - [agent-skills/model-compare](https://github.com/moonlight-lupin/agent-skills/tree/main/mlops/model-compare) by [moonlight-lupin](https://github.com/moonlight-lupin) — Blind multi-model A/B comparison with tool calling, coding, and review modes. Token efficiency metrics. **[production]**
+
+### 📈 Marketing & Growth
+
+- [NotFair](https://github.com/nowork-studio/NotFair) by [NoWork Studio](https://github.com/nowork-studio) — 42 host-agnostic skills for SEO, GEO, Google Ads, and Meta Ads, with a documented Hermes workspace install and approval-gated MCP actions for connected marketing accounts. **[beta]**
 
 ### 💻 Dev & Skill Authoring
 
