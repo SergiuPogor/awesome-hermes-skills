@@ -96,38 +96,40 @@ Browse the categories below. Every entry is tagged so you know what you're getti
 
 A short hand-picked list to get you started. If you install nothing else from this page, install these.
 
-### 🎬 youtube-full
-**production** · [@therohitdas](https://github.com/therohitdas) · [Repo](https://github.com/ZeroPointRepo/youtube-skills)
-
-```bash
-hermes skills install skills-sh/ZeroPointRepo/youtube-skills/skills/youtube-full
-```
-
-If your agent can't read YouTube, half the internet is invisible to it. This skill gives Hermes transcript extraction, channel browsing, search, and playlist parsing — no Google API key, no yt-dlp, no cloud-IP blocks. Powered by [TranscriptAPI](https://transcriptapi.com), which serves 15M+ transcripts/month. 100 free credits on signup, no card. Works in Hermes, Claude Code, OpenClaw, Cursor, Windsurf, Cline, and Codex.
+*Selection is editorial; the order is not. Picks are listed **most-starred first**, so the ranking is something you can check rather than something you have to trust. Counts verified 2026-08-12.*
 
 ### 🛠️ mattpocock/skills — Skills For Real Engineers
-**production** · [Matt Pocock](https://github.com/mattpocock) · [Repo](https://github.com/mattpocock/skills) · 🔥 trending
+**production** · [Matt Pocock](https://github.com/mattpocock) · [Repo](https://github.com/mattpocock/skills) · 214k★
 
 ```bash
 npx skills@latest add mattpocock/skills
 ```
 
-Fifteen battle-tested skills from the Total TypeScript creator (60k+ newsletter readers). The `grill-me` and `grill-with-docs` skills force the agent to interview you before writing code — the single best fix for "the agent didn't do what I wanted." `tdd` enforces red-green-refactor. `improve-codebase-architecture` rescues codebases that have become balls of mud. `wayfinder` maps work too big for one session onto decision tickets. Built for real engineering work, not vibe coding. Pick the ones you want with the installer's interactive picker.
+Twenty-three battle-tested skills from the Total TypeScript creator. The `grill-me` and `grill-with-docs` skills force the agent to interview you before writing code — the single best fix for "the agent didn't do what I wanted." `tdd` enforces red-green-refactor. `improve-codebase-architecture` rescues codebases that have become balls of mud. `wayfinder` maps work too big for one session onto decision tickets. Built for real engineering work, not vibe coding. Pick the ones you want with the installer's interactive picker.
+
+### 🖥️ hermes-workspace
+**production** · [outsourc-e](https://github.com/outsourc-e) · [Repo](https://github.com/outsourc-e/hermes-workspace) · 6.4k★
+
+Web-based workspace with chat, terminal, memory browser, skills manager, and inspector. The most complete GUI for Hermes. Built during Nous Hackathon 2026. Pairs well with everything else on this list.
 
 ### 🔬 SkillClaw
 **production** · [AMAP-ML](https://github.com/AMAP-ML) · [Repo](https://github.com/AMAP-ML/SkillClaw) · 2.4k★
 
 Open-source companion that auto-evolves, deduplicates, and improves your skill library from real session data. Sits on top of Hermes's built-in skill creation and adds a post-task evolution loop. Native Hermes integration via `~/.hermes/skills`, with safety flows (`skillclaw doctor hermes` / `skillclaw restore hermes`).
 
+### 🎬 youtube-full
+**production** · [@therohitdas](https://github.com/therohitdas) · [Repo](https://github.com/ZeroPointRepo/youtube-skills) · 505★
+
+```bash
+hermes skills install skills-sh/ZeroPointRepo/youtube-skills/skills/youtube-full
+```
+
+If your agent can't read YouTube, half the internet is invisible to it. This skill gives Hermes transcript extraction, channel browsing, search, and playlist parsing — no Google API key, no yt-dlp, no cloud-IP blocks. Powered by [TranscriptAPI](https://transcriptapi.com). Works in Hermes, Claude Code, OpenClaw, Cursor, Windsurf, Cline, and Codex. *(Maintainer's own — see [CONTRIBUTING](CONTRIBUTING.md#a-note-on-our-own-entries).)*
+
 ### 🛡️ resemble-ai/detect-skill
-**beta** · [Resemble AI](https://github.com/resemble-ai) · [Repo](https://github.com/resemble-ai/detect-skill)
+**beta** · [Resemble AI](https://github.com/resemble-ai) · [Repo](https://github.com/resemble-ai/detect-skill) · 50★
 
 Deepfake detection for agents that ingest user-submitted media. Detects AI-generated audio, image, video, and text. Traces audio source (ElevenLabs, Resemble, etc.), applies invisible watermarks for provenance, and verifies speaker identity. The first thing to install if your agent reads the public internet.
-
-### 🖥️ hermes-workspace
-**production** · [outsourc-e](https://github.com/outsourc-e) · [Repo](https://github.com/outsourc-e/hermes-workspace) · 6.4k★
-
-Web-based workspace with chat, terminal, memory browser, skills manager, and inspector. The most complete GUI for Hermes. Built during Nous Hackathon 2026. Pairs well with everything else on this list.
 
 ---
 
