@@ -124,7 +124,7 @@ Open-source companion that auto-evolves, deduplicates, and improves your skill l
 hermes skills install skills-sh/ZeroPointRepo/youtube-skills/skills/youtube-full
 ```
 
-If your agent can't read YouTube, half the internet is invisible to it. This skill gives Hermes transcript extraction, channel browsing, search, and playlist parsing — no Google API key, no yt-dlp, no cloud-IP blocks. Powered by [TranscriptAPI](https://transcriptapi.com). Works in Hermes, Claude Code, OpenClaw, Cursor, Windsurf, Cline, and Codex. *(Maintainer's own — see [CONTRIBUTING](CONTRIBUTING.md#a-note-on-our-own-entries).)*
+If your agent can't read YouTube, half the internet is invisible to it. This skill gives Hermes transcript extraction, channel browsing, search, and playlist parsing — no Google API key, no yt-dlp, no cloud-IP blocks. Powered by [TranscriptAPI](https://transcriptapi.com). Works in Hermes, Claude, OpenClaw and other agent runtimes. *(Maintainer's own — see [CONTRIBUTING](CONTRIBUTING.md#a-note-on-our-own-entries).)*
 
 ### 🛡️ resemble-ai/detect-skill
 **beta** · [Resemble AI](https://github.com/resemble-ai) · [Repo](https://github.com/resemble-ai/detect-skill) · 53★
@@ -528,7 +528,7 @@ Deepfake detection for agents that ingest user-submitted media. Detects AI-gener
 ### 📺 Media & Transcripts
 
 - [hermes-spotify-skill](https://github.com/Alexeyisme/hermes-spotify-skill) by [Alexeyisme](https://github.com/Alexeyisme) — Spotify control for headless Linux and Raspberry Pi. The only Linux-native Spotify skill in the ecosystem. **[beta]**
-- [youtube-skills](https://github.com/ZeroPointRepo/youtube-skills) by [therohitdas](https://github.com/therohitdas) — Transcripts, search, channels, playlists. Cross-agent: Hermes / Claude Code / OpenClaw / Cursor / Windsurf. Powered by [TranscriptAPI](https://transcriptapi.com). **[production]**
+- [youtube-skills](https://github.com/ZeroPointRepo/youtube-skills) by [therohitdas](https://github.com/therohitdas) — Transcripts, search, channels, playlists. Cross-agent: Hermes, Claude, OpenClaw and other agent runtimes. Powered by [TranscriptAPI](https://transcriptapi.com). **[production]**
 
 ### 🔍 Search & Research
 
