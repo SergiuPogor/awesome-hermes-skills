@@ -540,6 +540,8 @@ Deepfake detection for agents that ingest user-submitted media. Detects AI-gener
 
 ### 💻 Dev & Skill Authoring
 
+- [Agent QA skills](https://github.com/vostride/agent-qa/tree/main/skills) by [Vostride](https://github.com/vostride) — Three portable skills for authoring Agent QA tests, triaging failed runs from evidence, and applying scoped fixes through MCP or CLI. **[beta]**
+
 #### 🔥 mattpocock/skills — Engineering bundle
 > Install all at once: `npx skills@latest add mattpocock/skills` — pick which skills you want at install time.
 
