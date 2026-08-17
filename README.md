@@ -875,6 +875,9 @@ We ship [youtube-skills](https://github.com/ZeroPointRepo/youtube-skills), power
 
 Built with [crhq.ai](https://crhq.ai)
 
+*This is an unofficial, community-maintained list. It is not affiliated with or endorsed by Nous Research
+or the Hermes Agent project.*
+
 </div>
 
 ## License
