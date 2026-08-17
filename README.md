@@ -588,6 +588,7 @@ Deepfake detection for agents that ingest user-submitted media. Detects AI-gener
 - [SkillClaw](https://github.com/AMAP-ML/SkillClaw) by [AMAP-ML](https://github.com/AMAP-ML) — Auto-evolves and dedupes your skill library from session data. Native Hermes integration. 2.4k★. **[production]**
 - [skillsdotnet](https://github.com/PederHP/skillsdotnet) by [PederHP](https://github.com/PederHP) — C# implementation of agentskills.io with MCP integration. **[beta]**
 - [super-hermes](https://github.com/Cranot/super-hermes) by [Cranot](https://github.com/Cranot) — Teaches Hermes to write its own analytical prompts. Meta-reasoning before execution. **[experimental]**
+- [windows-terminal-hygiene](https://github.com/vollegrewar/windows-terminal-hygiene) by [vollegrewar](https://github.com/vollegrewar) — Pre-flight checklist that keeps agent terminal commands from hanging on Windows: timeouts, non-interactive flags, pty, encoding, and a 3-minute recovery flow. **[beta]**
 - [wondelai/skills](https://github.com/wondelai/skills) by [wondelai](https://github.com/wondelai) — Cross-platform agent skills for Claude Code and agentskills.io platforms. 1.9k★. **[production]**
 
 ### 🌐 Browser & Web
