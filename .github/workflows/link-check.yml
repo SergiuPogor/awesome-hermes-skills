@@ -48,6 +48,19 @@ jobs:
           content-filepath: ./lychee/out.md
           labels: broken-entry, automated
 
+      # Advisory only. A 200 from a renamed or archived repo is not a healthy entry,
+      # and lychee cannot tell the difference. Never fails the job.
+      - name: Entry health (advisory)
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node .github/scripts/entry-health.mjs README.md CONTRIBUTING.md || true
+          if [ -f entry-health-report.md ]; then
+            echo "## Entry health (advisory)" >> "$GITHUB_STEP_SUMMARY"
+            cat entry-health-report.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+
       - name: Report clean run
         if: steps.lychee.outputs.exit_code == 0
         run: echo "All links resolved."
