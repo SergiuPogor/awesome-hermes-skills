@@ -536,6 +536,7 @@ Deepfake detection for agents that ingest user-submitted media. Detects AI-gener
 - [deep-research](https://github.com/moonlight-lupin/agent-skills/tree/main/research/deep-research) by [moonlight-lupin](https://github.com/moonlight-lupin) — Autonomous Think→Search→Extract→Synthesize→Stop loop that produces cited research reports. **[production]**
 - [hermes-web-search-plus](https://github.com/robbyczgw-cla/hermes-web-search-plus) by [robbyczgw-cla](https://github.com/robbyczgw-cla) — Multi-provider web search with intelligent routing across Serper, Tavily, Exa, and more. Replaces built-in search with better quality + source diversity. **[beta]**
 - [Not Human Search](https://github.com/unitedideas/nothumansearch-mcp) by [unitedideas](https://github.com/unitedideas) — MCP server for discovering other MCP servers. Indexes 8,600+ agent-friendly sites with agentic scoring. Lets Hermes find new tools on its own. **[production]**
+- [Scavio](https://github.com/scavio-ai/hermes-agent) by [scavio-ai](https://github.com/scavio-ai) — Structured web data from 31 platforms through one hosted MCP server: Google SERP, Amazon, Walmart, eBay, Reddit, YouTube, TikTok, LinkedIn, Zillow, SEC filings and more, plus five workflow skills for product research, competitor scans and price tracking. **[beta]**
 
 ### 📈 Marketing & Growth
 
