@@ -863,8 +863,6 @@ Entry format:
 
 Full rules and a copy-paste example: **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 
-*Disclosure: the maintainers build some of the tools listed here.*
-
 ---
 
 ## 📰 Stay in the Loop
