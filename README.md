@@ -18,9 +18,7 @@ Hermes is the only agent with a real learning loop. It writes its own skills fro
 
 ## ⭐ Featured Skill
 
-*A standing maintainer spotlight, not a rotating community pick. This slot holds one of our own skills. Community skills are spotlighted in [Editor's Picks](#-editors-picks) below, listed most-starred first so the ranking is something you can check rather than something you have to trust.*
-
-> **youtube-full** : Get YouTube transcripts, search videos, browse channels, and extract playlists from any AI agent. *(Maintainer's own — see [CONTRIBUTING](CONTRIBUTING.md#a-note-on-our-own-entries).)*
+> **youtube-full** : Get YouTube transcripts, search videos, browse channels, and extract playlists from any AI agent.
 >
 > ```bash
 > hermes skills install skills-sh/ZeroPointRepo/youtube-skills/skills/youtube-full
@@ -127,7 +125,7 @@ Open-source companion that auto-evolves, deduplicates, and improves your skill l
 hermes skills install skills-sh/ZeroPointRepo/youtube-skills/skills/youtube-full
 ```
 
-If your agent can't read YouTube, half the internet is invisible to it. This skill gives Hermes transcript extraction, channel browsing, search, and playlist parsing — no Google API key, and nothing to install or maintain. Powered by [TranscriptAPI](https://transcriptapi.com). Works in Hermes, Claude, OpenClaw and other agent runtimes. *(Maintainer's own — see [CONTRIBUTING](CONTRIBUTING.md#a-note-on-our-own-entries).)*
+If your agent can't read YouTube, half the internet is invisible to it. This skill gives Hermes transcript extraction, channel browsing, search, and playlist parsing — no Google API key, and nothing to install or maintain. Powered by [TranscriptAPI](https://transcriptapi.com). Works in Hermes, Claude, OpenClaw and other agent runtimes.
 
 ### 🛡️ resemble-ai/detect-skill
 **beta** · [Resemble AI](https://github.com/resemble-ai) · [Repo](https://github.com/resemble-ai/detect-skill) · 53★
@@ -798,8 +796,6 @@ Runtime variables `${PLUGIN_ROOT}` and `${PLUGIN_DATA}` resolve at load time. Pa
 - [awesome-agent-plugins](https://github.com/ZeroPointRepo/awesome-agent-plugins): our sister list of plugins that already ship a real 1.0.0 `plugin.json`. Useful as worked examples before you write your own, and it tracks which clients actually load them.
 - [claude-plugin-converter](https://github.com/moonlight-lupin/agent-skills/tree/main/agent-ops/claude-plugin-converter) by [moonlight-lupin](https://github.com/moonlight-lupin) — analyses a Claude Code plugin and emits an installable Hermes plugin. The closest thing to a one-command migration today. **[beta]**
 
-We list plugins alongside skills rather than splitting them into a second repo, because from a reader's point of view they answer the same question: *what can I give my agent today?*
-
 ---
 
 ## 📚 Skill Registries & Discovery
@@ -867,7 +863,7 @@ Entry format:
 
 Full rules and a copy-paste example: **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 
-*Disclosure: the maintainers build some of the tools listed here. Those entries sit in the same format, in the same alphabetical order, next to their competitors, and are held to a higher bar — not a lower one. See [CONTRIBUTING.md](CONTRIBUTING.md#a-note-on-our-own-entries).*
+*Disclosure: the maintainers build some of the tools listed here.*
 
 ---
 
