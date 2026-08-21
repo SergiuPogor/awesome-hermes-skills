@@ -16,17 +16,19 @@ Hermes is the only agent with a real learning loop. It writes its own skills fro
 
 ---
 
-## ⭐ Skill of the Week
+## ⭐ Featured Skill
 
-> **Agent QA** — Natural-language browser and mobile tests that survive UI churn, plus the two skills that matter after a test goes red: triage the failure from captured evidence, then apply a scoped fix.
+*A standing maintainer spotlight, not a rotating community pick. This slot holds one of our own skills. Community skills are spotlighted in [Editor's Picks](#-editors-picks) below, listed most-starred first so the ranking is something you can check rather than something you have to trust.*
+
+> **youtube-full** : Get YouTube transcripts, search videos, browse channels, and extract playlists from any AI agent. *(Maintainer's own — see [CONTRIBUTING](CONTRIBUTING.md#a-note-on-our-own-entries).)*
 >
 > ```bash
-> npm install -D agent-qa && npx agent-qa init
+> hermes skills install skills-sh/ZeroPointRepo/youtube-skills/skills/youtube-full
 > ```
 >
-> The interesting skill here isn't the authoring one — it's `agent-qa-result-triage`. When a run fails, it reads the actual artifacts (screenshots, DOM snapshots, network log) and tells you whether the app broke or the test drifted. That distinction is the entire cost of a flaky suite, and it's normally the thing a human burns twenty minutes on. `agent-qa-debug-fix` then applies a *scoped* change rather than rewriting the spec. Three real `SKILL.md` files, usable from the CLI or through the MCP server.
+> The fastest way to feel what Hermes can do. Install it, then ask: *"Summarize the last 5 videos from Lex Fridman."* Your agent fetches the transcripts, summarizes them, and remembers what you watched, all in one prompt. No Google API key, and nothing to install or maintain. Powered by [TranscriptAPI](https://transcriptapi.com). Works in Hermes, Claude, OpenClaw and other agent runtimes.
 >
-> [Repo →](https://github.com/vostride/agent-qa) · Contributed by [@pranshuchittora](https://github.com/pranshuchittora) in [#47](https://github.com/ZeroPointRepo/awesome-hermes-skills/pull/47)
+> [Repo →](https://github.com/ZeroPointRepo/youtube-skills)
 
 ---
 
@@ -57,7 +59,7 @@ Browse the categories below. Every entry is tagged so you know what you're getti
 
 ## 📚 Table of Contents
 
-- [⭐ Skill of the Week](#-skill-of-the-week)
+- [⭐ Featured Skill](#-featured-skill)
 - [🚀 Where Do I Start?](#-where-do-i-start)
 - [⭐ Editor's Picks](#-editors-picks)
 - [📦 Built-in Skills (Ships with Hermes)](#-built-in-skills-ships-with-hermes)
@@ -859,7 +861,7 @@ Full rules and a copy-paste example: **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 
 ## 📰 Stay in the Loop
 
-- **[@therohitdas](https://twitter.com/therohitdas)** — Skill of the Week + new additions
+- **[@therohitdas](https://twitter.com/therohitdas)** — New additions and catalog updates
 - **GitHub Stars** — Star this repo to keep it visible
 - **[Hermes Discord](https://discord.gg/NousResearch)** — Talk shop with other Hermes users
 
