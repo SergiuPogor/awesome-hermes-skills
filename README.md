@@ -87,6 +87,7 @@ Browse the categories below. Every entry is tagged so you know what you're getti
 - [🔄 Skills → Plugins](#-skills--plugins)
 - [📚 Skill Registries & Discovery](#-skill-registries--discovery)
 - [📖 Guides & Documentation](#-guides--documentation)
+- [🔗 Related Lists](#-related-lists)
 - [🛡️ Security Notice](#%EF%B8%8F-security-notice)
 - [🤝 Contributing](#-contributing)
 - [📰 Stay in the Loop](#-stay-in-the-loop)
@@ -794,6 +795,7 @@ Runtime variables `${PLUGIN_ROOT}` and `${PLUGIN_DATA}` resolve at load time. Pa
 **Converting an existing skill:**
 
 - [Agent Plugins spec](https://github.com/agentplugins/agent-plugins-spec) — the normative source. Schemas at [agent-plugins.org/schemas](https://agent-plugins.org/schemas).
+- [awesome-agent-plugins](https://github.com/ZeroPointRepo/awesome-agent-plugins): our sister list of plugins that already ship a real 1.0.0 `plugin.json`. Useful as worked examples before you write your own, and it tracks which clients actually load them.
 - [claude-plugin-converter](https://github.com/moonlight-lupin/agent-skills/tree/main/agent-ops/claude-plugin-converter) by [moonlight-lupin](https://github.com/moonlight-lupin) — analyses a Claude Code plugin and emits an installable Hermes plugin. The closest thing to a one-command migration today. **[beta]**
 
 We list plugins alongside skills rather than splitting them into a second repo, because from a reader's point of view they answer the same question: *what can I give my agent today?*
@@ -816,6 +818,16 @@ We list plugins alongside skills rather than splitting them into a second repo, 
 - [hermes-agent-docs](https://github.com/mudrii/hermes-agent-docs) by [mudrii](https://github.com/mudrii) — Comprehensive community documentation. Useful supplement for deployment patterns. **[beta]**
 - [hermes-wsl-ubuntu](https://github.com/metantonio/hermes-wsl-ubuntu) by [metantonio](https://github.com/metantonio) — End-to-end WSL2 + llama.cpp + Qwen3.5 setup with CUDA/Metal acceleration for running Hermes on Windows. **[production]**
 - **[Discord](https://discord.gg/NousResearch)** — Bug reports, feature requests, general discussion.
+
+---
+
+## 🔗 Related Lists
+
+Sister lists, same standard, same maintainer. Each one covers a different agent ecosystem.
+
+- [awesome-agent-plugins](https://github.com/ZeroPointRepo/awesome-agent-plugins): plugins on the open Agent Plugins standard, every entry checked for a real `plugin.json`.
+- [awesome-grok-bot](https://github.com/ZeroPointRepo/awesome-grok-bot): skills, plugins and MCP wiring for xAI and Cursor's Grok Bot.
+- [awesome-dsh-usecases](https://github.com/ZeroPointRepo/awesome-dsh-usecases): what people actually build with DeepSeek Harness, each entry with a working install command.
 
 ---
 
