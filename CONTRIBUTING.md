@@ -94,16 +94,16 @@ Not sure which? Pick the closest one and say so in the PR. Putting it in the wro
 
 Open an issue with the [report-broken](https://github.com/ZeroPointRepo/awesome-hermes-skills/issues/new?template=report-broken.yml) template, or just say which line is dead. A weekly job sweeps for dead links, but it doesn't catch repos that went empty or abandoned.
 
-## A note on our own entries
+## Entries from ZeroPointRepo
 
-The maintainers build some of the tools listed here — `youtube-skills` (powered by [TranscriptAPI](https://transcriptapi.com)) and `zillow-skills` (powered by Zillapi) are ours. We say so plainly, and we hold them to rules that are stricter than the ones above, not looser:
+Some entries in this list are built by ZeroPointRepo: `youtube-skills` and `zillow-skills`. They are held to the same rules as every other entry, and to a higher bar on one point:
 
-- **Never more than one of our entries per section.**
-- **Same format, no decoration.** They sit in the same alphabetical order, next to their direct competitors, with no bold, badge, or "featured" marker.
-- **A competitor's entry is never rejected to protect ours.** If a better alternative to something we build shows up, it goes in — next to ours.
-- **The list has to be useful with every one of our entries deleted.** That's the test we apply.
+- Same entry format as everyone else. They sit in the same alphabetical order, next to their direct competitors, with no bold, badge, or "featured" marker.
+- At most one per section.
+- A higher acceptance bar: no working install path, no real docs, it does not go in.
+- A competing entry is never rejected or downranked to protect one of ours. If a better alternative to something we build shows up, it goes in, next to ours.
 
-If you think we've broken one of those, open an issue and say so. We'd rather fix it than argue about it.
+The list has to be useful with every one of those entries deleted. That is the test we apply. If you think we have broken one of these rules, open an issue and say so. We would rather fix it than argue about it.
 
 ## Licence
 
