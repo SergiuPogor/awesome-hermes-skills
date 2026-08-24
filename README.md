@@ -5,12 +5,12 @@
 # Awesome Hermes Skills
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Skills Count](https://img.shields.io/badge/skills-358-blue?style=flat-square)](#-table-of-contents)
+[![Skills Count](https://img.shields.io/badge/skills-362-blue?style=flat-square)](#-table-of-contents)
 [![Last Update](https://img.shields.io/github/last-commit/ZeroPointRepo/awesome-hermes-skills?label=Last%20update&style=flat-square)](https://github.com/ZeroPointRepo/awesome-hermes-skills/pulls?q=is%3Apr+is%3Amerged+sort%3Aupdated-desc)
-[![Hermes](https://img.shields.io/badge/Hermes-v0.20.2-purple?style=flat-square)](https://github.com/NousResearch/hermes-agent/releases)
+[![Hermes](https://img.shields.io/badge/Hermes-v0.20.5-purple?style=flat-square)](https://github.com/NousResearch/hermes-agent/releases)
 [![Agent Plugins](https://img.shields.io/badge/Agent%20Plugins-v1.0.0-teal?style=flat-square)](https://agent-plugins.org)
 
-> A curated, install-ready directory for the [Hermes Agent](https://github.com/NousResearch/hermes-agent) ecosystem — the self-improving AI agent from [Nous Research](https://nousresearch.com). Covers the **82 built-in skills** and **115-skill optional catalog** that ship with Hermes v0.20.2, plus **161 community skills, plugins, agent profiles, memory providers, surfaces, and tools** vetted for quality.
+> A curated, install-ready directory for the [Hermes Agent](https://github.com/NousResearch/hermes-agent) ecosystem — the self-improving AI agent from [Nous Research](https://nousresearch.com). Covers the **82 built-in skills** and **117-skill optional catalog** that ship with Hermes v0.20.5, plus **163 community skills, plugins, agent profiles, memory providers, surfaces, and tools** vetted for quality.
 
 Hermes is the only agent with a real learning loop. It writes its own skills from your workflows, searches its own past conversations, and runs anywhere — a $5 VPS, a GPU cluster, serverless, or your laptop. But the agent is only as powerful as the skills you give it. **This list is the shortcut.** Pick three, install in a minute, and your agent is twice as useful by tonight.
 
@@ -34,7 +34,7 @@ Hermes is the only agent with a real learning loop. It writes its own skills fro
 
 New to Hermes? Don't try to install everything at once. Here's the three-step path from zero to "wait, my agent can do that?":
 
-1. **Get Hermes running** — Follow the [official quickstart](https://hermes-agent.nousresearch.com/docs/). 10 minutes from clone to first conversation. Hermes ships with [82 built-in skills](#-built-in-skills-ships-with-hermes) — plus a [115-skill optional catalog](#-optional-skills-bundled-with-hermes) — the day you install it, so even before you add anything from this list, you can already do a lot.
+1. **Get Hermes running** — Follow the [official quickstart](https://hermes-agent.nousresearch.com/docs/). 10 minutes from clone to first conversation. Hermes ships with [82 built-in skills](#-built-in-skills-ships-with-hermes) — plus a [117-skill optional catalog](#-optional-skills-bundled-with-hermes) — the day you install it, so even before you add anything from this list, you can already do a lot.
 
 2. **Install your first skill — `youtube-full`**
    ```bash
@@ -97,10 +97,10 @@ Browse the categories below. Every entry is tagged so you know what you're getti
 
 A short hand-picked list to get you started. If you install nothing else from this page, install these.
 
-*Selection is editorial; the order is not. Picks are listed **most-starred first**, so the ranking is something you can check rather than something you have to trust. Counts verified 2026-08-12.*
+*Selection is editorial; the order is not. Picks are listed **most-starred first**, so the ranking is something you can check rather than something you have to trust. Counts re-pulled from the GitHub API 2026-08-24 09:23 UTC; on a list this size they drift within hours, so treat the figure as of that timestamp and the ordering as the durable claim.*
 
 ### 🛠️ mattpocock/skills — Skills For Real Engineers
-**production** · [Matt Pocock](https://github.com/mattpocock) · [Repo](https://github.com/mattpocock/skills) · 220k★
+**production** · [Matt Pocock](https://github.com/mattpocock) · [Repo](https://github.com/mattpocock/skills) · 235k★
 
 ```bash
 npx skills@latest add mattpocock/skills
@@ -109,17 +109,17 @@ npx skills@latest add mattpocock/skills
 Twenty-three battle-tested skills from the Total TypeScript creator. The `grill-me` and `grill-with-docs` skills force the agent to interview you before writing code — the single best fix for "the agent didn't do what I wanted." `tdd` enforces red-green-refactor. `improve-codebase-architecture` rescues codebases that have become balls of mud. `wayfinder` maps work too big for one session onto decision tickets. Built for real engineering work, not vibe coding. Pick the ones you want with the installer's interactive picker.
 
 ### 🖥️ hermes-workspace
-**production** · [outsourc-e](https://github.com/outsourc-e) · [Repo](https://github.com/outsourc-e/hermes-workspace) · 6.4k★
+**production** · [outsourc-e](https://github.com/outsourc-e) · [Repo](https://github.com/outsourc-e/hermes-workspace) · 6.5k★
 
 Web-based workspace with chat, terminal, memory browser, skills manager, and inspector. The most complete GUI for Hermes. Built during Nous Hackathon 2026. Pairs well with everything else on this list.
 
 ### 🔬 SkillClaw
-**production** · [AMAP-ML](https://github.com/AMAP-ML) · [Repo](https://github.com/AMAP-ML/SkillClaw) · 2.4k★
+**production** · [AMAP-ML](https://github.com/AMAP-ML) · [Repo](https://github.com/AMAP-ML/SkillClaw) · 2.5k★
 
 Open-source companion that auto-evolves, deduplicates, and improves your skill library from real session data. Sits on top of Hermes's built-in skill creation and adds a post-task evolution loop. Native Hermes integration via `~/.hermes/skills`, with safety flows (`skillclaw doctor hermes` / `skillclaw restore hermes`).
 
 ### 🎬 youtube-full
-**production** · [@therohitdas](https://github.com/therohitdas) · [Repo](https://github.com/ZeroPointRepo/youtube-skills) · 522★
+**production** · [@therohitdas](https://github.com/therohitdas) · [Repo](https://github.com/ZeroPointRepo/youtube-skills) · 553★
 
 ```bash
 hermes skills install skills-sh/ZeroPointRepo/youtube-skills/skills/youtube-full
@@ -128,7 +128,7 @@ hermes skills install skills-sh/ZeroPointRepo/youtube-skills/skills/youtube-full
 If your agent can't read YouTube, half the internet is invisible to it. This skill gives Hermes transcript extraction, channel browsing, search, and playlist parsing — no Google API key, and nothing to install or maintain. Powered by [TranscriptAPI](https://transcriptapi.com). Works in Hermes, Claude, OpenClaw and other agent runtimes.
 
 ### 🛡️ resemble-ai/detect-skill
-**beta** · [Resemble AI](https://github.com/resemble-ai) · [Repo](https://github.com/resemble-ai/detect-skill) · 53★
+**beta** · [Resemble AI](https://github.com/resemble-ai) · [Repo](https://github.com/resemble-ai/detect-skill) · 60★
 
 Deepfake detection for agents that ingest user-submitted media. Detects AI-generated audio, image, video, and text. Traces audio source (ElevenLabs, Resemble, etc.), applies invisible watermarks for provenance, and verifies speaker identity. The first thing to install if your agent reads the public internet.
 
@@ -296,7 +296,7 @@ Deepfake detection for agents that ingest user-submitted media. Detects AI-gener
 
 ## 🧩 Optional Skills (Bundled with Hermes)
 
-> Beyond the always-on built-ins, Hermes bundles a **115-skill optional catalog** — shipped in the repo but off by default, so your context stays lean until you need them. Browse [`optional-skills/`](https://github.com/NousResearch/hermes-agent/tree/main/optional-skills) and enable the ones your workflow calls for.
+> Beyond the always-on built-ins, Hermes bundles a **117-skill optional catalog** — shipped in the repo but off by default, so your context stays lean until you need them. Browse [`optional-skills/`](https://github.com/NousResearch/hermes-agent/tree/main/optional-skills) and enable the ones your workflow calls for.
 >
 > This is where the deep, domain-specific power lives: **31 MLOps skills** (training, serving, vector DBs, interpretability), a full **finance-modeling suite** (DCF, LBO, merger, 3-statement), plus OSINT, blockchain, payments, and more.
 
@@ -325,18 +325,20 @@ Deepfake detection for agents that ingest user-submitted media. Detects AI-gener
 </details>
 
 <details>
-<summary><h3 style="display:inline">🎨 Creative (13)</h3></summary>
+<summary><h3 style="display:inline">🎨 Creative (15)</h3></summary>
 
 - **audiocraft-audio-generation** — AudioCraft: MusicGen text-to-music, AudioGen text-to-sound.
 - **baoyu-article-illustrator** — Article illustrations: type × style × palette consistency.
 - **baoyu-comic** — Knowledge comics (知识漫画): educational, biography, tutorial.
 - **concept-diagrams** — Generate flat, minimal educational SVG visuals as HTML.
 - **creative-ideation** — Generate ideas via named methods from creative practice.
+- **draw-your-font** — Turn a handwriting photo into an installable TTF font.
 - **heartmula** — HeartMuLa: Suno-like song generation from lyrics + tags.
 - **hyperframes** — Render MP4/WebM videos from HTML compositions.
 - **kanban-video-orchestrator** — Plan and run multi-agent video production pipelines.
 - **meme-generation** — Create meme PNGs from templates with Pillow text overlay.
 - **pixel-art** — Pixel art w/ era palettes (NES, Game Boy, PICO-8).
+- **simple-english** — Rewrite text to ASD-STE100 Simplified Technical English.
 - **social-media-content-calendar** — Plan multi-platform social campaigns: briefs to posting.
 - **tldraw-offline** — Drive and script tldraw offline canvases with an agent.
 - **unreal-mcp** — Automate Unreal Engine editor scenes, actors, and renders.
@@ -592,11 +594,11 @@ Deepfake detection for agents that ingest user-submitted media. Detects AI-gener
 - [pydantic-ai-skills](https://github.com/DougTrajano/pydantic-ai-skills) by [DougTrajano](https://github.com/DougTrajano) — Pydantic AI with agentskills.io. Type-safe schema validation for skill inputs/outputs. **[production]**
 - [rtk-hermes](https://github.com/ogallotti/rtk-hermes) by [ogallotti](https://github.com/ogallotti) — Compresses terminal output via RTK before it reaches LLM context. 60-90% token reduction. Zero config. **[beta]**
 - [skill-maintainer](https://github.com/moonlight-lupin/agent-skills/tree/main/agent-ops/skill-maintainer) by [moonlight-lupin](https://github.com/moonlight-lupin) — End-to-end skill library maintenance: author, curate, track upstream drift, publish. **[beta]**
-- [SkillClaw](https://github.com/AMAP-ML/SkillClaw) by [AMAP-ML](https://github.com/AMAP-ML) — Auto-evolves and dedupes your skill library from session data. Native Hermes integration. 2.4k★. **[production]**
+- [SkillClaw](https://github.com/AMAP-ML/SkillClaw) by [AMAP-ML](https://github.com/AMAP-ML) — Auto-evolves and dedupes your skill library from session data. Native Hermes integration. 2.5k★. **[production]**
 - [skillsdotnet](https://github.com/PederHP/skillsdotnet) by [PederHP](https://github.com/PederHP) — C# implementation of agentskills.io with MCP integration. **[beta]**
 - [super-hermes](https://github.com/Cranot/super-hermes) by [Cranot](https://github.com/Cranot) — Teaches Hermes to write its own analytical prompts. Meta-reasoning before execution. **[experimental]**
 - [windows-terminal-hygiene](https://github.com/vollegrewar/windows-terminal-hygiene) by [vollegrewar](https://github.com/vollegrewar) — Pre-flight checklist that keeps agent terminal commands from hanging on Windows: timeouts, non-interactive flags, pty, encoding, and a 3-minute recovery flow. **[beta]**
-- [wondelai/skills](https://github.com/wondelai/skills) by [wondelai](https://github.com/wondelai) — Cross-platform agent skills for Claude Code and agentskills.io platforms. 1.9k★. **[production]**
+- [wondelai/skills](https://github.com/wondelai/skills) by [wondelai](https://github.com/wondelai) — Cross-platform agent skills for Claude Code and agentskills.io platforms. 2k★. **[production]**
 
 ### 🌐 Browser & Web
 
@@ -675,7 +677,7 @@ Deepfake detection for agents that ingest user-submitted media. Detects AI-gener
 
 ### 🔐 Security & Detection
 
-- [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) by [mukul975](https://github.com/mukul975) — 753+ structured cybersecurity skills mapped to MITRE ATT&CK. 28k★. **[production]**
+- [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) by [mukul975](https://github.com/mukul975) — 753+ structured cybersecurity skills mapped to MITRE ATT&CK. 31k★. **[production]**
 - [hermes-agent-camel](https://github.com/nativ3ai/hermes-agent-camel) by [nativ3ai](https://github.com/nativ3ai) — Hermes with integrated CaMeL trust boundaries. Formal trust verification for safety-critical deployments. **[beta]**
 - [incognito-mode](https://github.com/GenmetsuWenxuePress/hermes-skills) by [幻灭文学出版社](https://github.com/GenmetsuWenxuePress) — Defense-in-depth incognito mode: PID-locked sandbox, shell history suppression, 10-step reverse audit with Python secure wipe, subagent inheritance protocol. **[beta]**
 - [resemble-ai/detect-skill](https://github.com/resemble-ai/detect-skill) by [Resemble AI](https://github.com/resemble-ai) — Deepfake detection: AI-generated audio/image/video/text, source tracing, watermarking, speaker ID. **[beta]**
@@ -767,8 +769,8 @@ Deepfake detection for agents that ingest user-submitted media. Detects AI-gener
 - [hermes-desktop](https://github.com/dodo-reach/hermes-desktop) by [dodo-reach](https://github.com/dodo-reach) — Native macOS workspace with direct host-first SSH. Real terminal, session browsing, file editing. **[beta]**
 - [hermes-ui](https://github.com/pyrate-llama/hermes-ui) by [pyrate-llama](https://github.com/pyrate-llama) — Single-file glassmorphic web UI with SSE streaming, tool call visualization, PDF export, session/skill/memory viewers. **[beta]**
 - [hermes-webui](https://github.com/sanchomuzax/hermes-webui) by [sanchomuzax](https://github.com/sanchomuzax) — Lightweight process monitoring and config dashboard. Simpler ops alternative. **[beta]**
-- [hermes-workspace](https://github.com/outsourc-e/hermes-workspace) by [outsourc-e](https://github.com/outsourc-e) — Web-based workspace: chat, terminal, memory browser, skills manager, inspector. Most complete GUI for Hermes. 6.4k★. **[production]**
-- [mission-control](https://github.com/builderz-labs/mission-control) by [builderz-labs](https://github.com/builderz-labs) — Open-source dashboard for AI agent orchestration. Multi-agent fleets, task dispatch, cost tracking. 6k★. **[production]**
+- [hermes-workspace](https://github.com/outsourc-e/hermes-workspace) by [outsourc-e](https://github.com/outsourc-e) — Web-based workspace: chat, terminal, memory browser, skills manager, inspector. Most complete GUI for Hermes. 6.5k★. **[production]**
+- [mission-control](https://github.com/builderz-labs/mission-control) by [builderz-labs](https://github.com/builderz-labs) — Open-source dashboard for AI agent orchestration. Multi-agent fleets, task dispatch, cost tracking. 6.1k★. **[production]**
 - [orahermes-agent](https://github.com/jasperan/orahermes-agent) by [jasperan](https://github.com/jasperan) — Oracle AI Agent Harness — OCI GenAI and Oracle 26ai integration. **[experimental]**
 - [portable-hermes-agent](https://github.com/aivrar/portable-hermes-agent) by [aivrar](https://github.com/aivrar) — Windows desktop app bundling 100 tools, GUI, local models, ComfyUI in a portable package. **[beta]**
 
