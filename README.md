@@ -664,6 +664,7 @@ Deepfake detection for agents that ingest user-submitted media. Detects AI-gener
 ### 🏠 Smart Home, IoT & Embodied
 
 - [agent-android](https://github.com/aivanelabs/ai-rpa/tree/main/skills/agent-android) by [AIVane Labs](https://github.com/aivanelabs) — LAN-first Android control over WiFi. No USB/ADB/root needed. Health checks, taps, swipes, screenshots, inspect→act→smoke flows. **[beta]**
+- [argo](https://github.com/Allendior/private-agent/tree/main/skills/argo) by [Allendior](https://github.com/Allendior) — Signed typed jobs from Hermes to a paired Android phone. No on-device LLM; fail-closed taps, Home, Back, and screen reads. **[beta]**
 - [hermes-android](https://github.com/raulvidis/hermes-android) by [raulvidis](https://github.com/raulvidis) — Android device bridge with full Python toolset. **[beta]**
 - [Hermes-mars-rover](https://github.com/Snehal707/Hermes-mars-rover) by [Snehal707](https://github.com/Snehal707) — Mars rover sim with ROS2 and Gazebo. Hermes skill loop for navigation improvement. **[experimental]**
 - [hermes-miniverse](https://github.com/teknium1/hermes-miniverse) by [teknium1](https://github.com/teknium1) — Bridge to Miniverse pixel worlds. By a Nous Research co-founder. **[beta]**
