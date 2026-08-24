@@ -623,7 +623,7 @@ Deepfake detection for agents that ingest user-submitted media. Detects AI-gener
 
 ### 🎨 Creative & Media Generation
 
-- [anti-ui-slop](https://github.com/uizze/uizze) by [UIZZE](https://github.com/uizze) — Free MIT Skill for product-specific design contracts, required UI states, and hard finish gates; its no-account preview is at https://uizze.com/mcp/preview, while full [UIZZE](https://uizze.com) adds live reference search, validation, and audits across 800,000+ real web and iOS screens. **[beta]**
+- [anti-ui-slop](https://github.com/uizze/uizze) by [UIZZE](https://github.com/uizze) — MIT skill for design contracts, required UI states and hard finish gates on agent-generated UI. Works without an account; live reference search, validation and audits need the paid [UIZZE](https://uizze.com) MCP. **[beta]**
 - [black-forest-labs/skills](https://github.com/black-forest-labs/skills) by [Black Forest Labs](https://github.com/black-forest-labs) — Official FLUX model skills for image generation. First-party skills from the FLUX creators. **[production]**
 - [hermes-weather-plugin](https://github.com/FahrenheitResearch/hermes-weather-plugin) by [FahrenheitResearch](https://github.com/FahrenheitResearch) — Professional-grade weather plugin with NWS model imagery, NEXRAD radar, meteorological calculations. **[beta]**
 - [hermes-wxtrain-plugin](https://github.com/FahrenheitResearch/hermes-wxtrain-plugin) by [FahrenheitResearch](https://github.com/FahrenheitResearch) — ML pipeline for building training datasets from HRRR/GFS/ERA5 weather models. **[experimental]**
