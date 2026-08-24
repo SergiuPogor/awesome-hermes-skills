@@ -636,6 +636,7 @@ Deepfake detection for agents that ingest user-submitted media. Detects AI-gener
 
 ### 🔧 DevOps & Deployment
 
+- [aivpn](https://github.com/ZoniBoy00/aivpn) by [ZoniBoy00](https://github.com/ZoniBoy00) — Per-location Docker WireGuard relay for Proton VPN with kill switch, SOCKS5 and prompt-injection-safe fetching. **[beta]**
 - [evey-setup](https://github.com/42-evey/evey-setup) by [42-evey](https://github.com/42-evey) — One-command setup for full hermes-agent stack with free models and 29 plugins. **[beta]**
 - [hermes-agent-docker](https://github.com/xmbshwll/hermes-agent-docker) by [xmbshwll](https://github.com/xmbshwll) — Minimal Docker sandbox image for Hermes. Pull, run, done. **[beta]**
 - [nika](https://github.com/supernovae-st/nika) by [supernovae-st](https://github.com/supernovae-st) — Deterministic workflow runner Hermes can delegate to. Repeatable jobs become reviewable `.nika.yaml` files with plan, cost and permit checks up front and a hash-chained trace after. **[beta]**
