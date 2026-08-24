@@ -707,11 +707,8 @@ Deepfake detection for agents that ingest user-submitted media. Detects AI-gener
 
 > Installable Hermes **profiles** — a persona, memory and curated skill/plugin bundle that reconfigures the whole agent for one role. Install with `hermes profile install <repo-url>`.
 
-- [chainforge](https://github.com/codegraphtheory/chainforge) by [codegraphtheory](https://github.com/codegraphtheory) — Security-first blockchain architect profile: Solidity, Solana, DeFi review workflows. **[beta]**
 - [donna-starter](https://github.com/AtlasOmnia/donna-starter) by [AtlasOmnia](https://github.com/AtlasOmnia) — Opinionated starter profile with a persona, 73 curated skills and a guided first run. A good first profile. **[beta]**
-- [heavy-coder](https://github.com/codegraphtheory/heavy-coder) by [codegraphtheory](https://github.com/codegraphtheory) — Multi-agent coding team profile with GitHub issue-to-PR automation, blind critique and synthesis. **[beta]**
 - [hermes-profile-kit](https://github.com/NewTurn2017/hermes-profile-kit) by [NewTurn2017](https://github.com/NewTurn2017) — Drop-in kit that creates four isolated profiles — coder, assistant, research, community-bot — with separate config and memory. **[beta]**
-- [hermes-profile-template](https://github.com/codegraphtheory/hermes-profile-template) by [codegraphtheory](https://github.com/codegraphtheory) — Prompt-to-repo authoring system for building and distributing your own installable profile. **[beta]**
 - [hermes-profiles](https://github.com/magnus919/hermes-profiles) by [magnus919](https://github.com/magnus919) — Curated profiles for specialist swarms. The largest profile collection in the ecosystem. **[production]**
 - [theheavenlyd3mon/hermes-profiles](https://github.com/theheavenlyd3mon/hermes-profiles) by [theheavenlyd3mon](https://github.com/theheavenlyd3mon) — Persona-driven profiles for orchestration, coding and research. **[beta]**
 - [violin](https://github.com/Strategic-Automation/violin) by [Strategic-Automation](https://github.com/Strategic-Automation) — Supervised pentest profile: 31 playbooks across the OWASP, API and LLM Top 10, with interactive scoping and approval gates before any target-touching command runs. Hermes-native, no extra API keys. **[production]**
@@ -823,7 +820,7 @@ Sister lists, same standard, same maintainer. Each one covers a different agent 
 
 - [awesome-agent-plugins](https://github.com/ZeroPointRepo/awesome-agent-plugins): plugins on the open Agent Plugins standard, every entry checked for a real `plugin.json`.
 - [awesome-grok-bot](https://github.com/ZeroPointRepo/awesome-grok-bot): skills, plugins and MCP wiring for xAI and Cursor's Grok Bot.
-- [awesome-dsh-usecases](https://github.com/ZeroPointRepo/awesome-dsh-usecases): what people actually build with DeepSeek Harness, each entry with a working install command.
+- [awesome-dsh-plugins](https://github.com/ZeroPointRepo/awesome-dsh-plugins): DeepSeek Harness plugins organized by what they do, every install command re-checked weekly by CI.
 - [awesome-fx-skills](https://github.com/ZeroPointRepo/awesome-fx-skills): skills, MCP servers and subagents for Vercel's fx coding agent, every install command machine-checked weekly.
 
 ---
