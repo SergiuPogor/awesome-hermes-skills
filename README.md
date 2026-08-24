@@ -5,12 +5,12 @@
 # Awesome Hermes Skills
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Skills Count](https://img.shields.io/badge/skills-362-blue?style=flat-square)](#-table-of-contents)
+[![Skills Count](https://img.shields.io/badge/skills-364-blue?style=flat-square)](#-table-of-contents)
 [![Last Update](https://img.shields.io/github/last-commit/ZeroPointRepo/awesome-hermes-skills?label=Last%20update&style=flat-square)](https://github.com/ZeroPointRepo/awesome-hermes-skills/pulls?q=is%3Apr+is%3Amerged+sort%3Aupdated-desc)
 [![Hermes](https://img.shields.io/badge/Hermes-v0.20.5-purple?style=flat-square)](https://github.com/NousResearch/hermes-agent/releases)
 [![Agent Plugins](https://img.shields.io/badge/Agent%20Plugins-v1.0.0-teal?style=flat-square)](https://agent-plugins.org)
 
-> A curated, install-ready directory for the [Hermes Agent](https://github.com/NousResearch/hermes-agent) ecosystem — the self-improving AI agent from [Nous Research](https://nousresearch.com). Covers the **82 built-in skills** and **117-skill optional catalog** that ship with Hermes v0.20.5, plus **163 community skills, plugins, agent profiles, memory providers, surfaces, and tools** vetted for quality.
+> A curated, install-ready directory for the [Hermes Agent](https://github.com/NousResearch/hermes-agent) ecosystem — the self-improving AI agent from [Nous Research](https://nousresearch.com). Covers the **82 built-in skills** and **117-skill optional catalog** that ship with Hermes v0.20.5, plus **165 community skills, plugins, agent profiles, memory providers, surfaces, and tools** vetted for quality.
 
 Hermes is the only agent with a real learning loop. It writes its own skills from your workflows, searches its own past conversations, and runs anywhere — a $5 VPS, a GPU cluster, serverless, or your laptop. But the agent is only as powerful as the skills you give it. **This list is the shortcut.** Pick three, install in a minute, and your agent is twice as useful by tonight.
 
@@ -716,9 +716,11 @@ Deepfake detection for agents that ingest user-submitted media. Detects AI-gener
 
 - [donna-starter](https://github.com/AtlasOmnia/donna-starter) by [AtlasOmnia](https://github.com/AtlasOmnia) — Opinionated starter profile with a persona, 73 curated skills and a guided first run. A good first profile. **[beta]**
 - [hermes-profile-kit](https://github.com/NewTurn2017/hermes-profile-kit) by [NewTurn2017](https://github.com/NewTurn2017) — Drop-in kit that creates four isolated profiles — coder, assistant, research, community-bot — with separate config and memory. **[beta]**
+- [hermes-profile-packs](https://github.com/Dadmin88/hermes-profile-packs) by [Dadmin88](https://github.com/Dadmin88) — Three profile packs kept as coherent teams rather than isolated prompts: Agency for professional work, Council for personal life, Academy for teaching. Each profile ships its own SOUL.md, skills and distribution manifest. **[beta]**
 - [hermes-profiles](https://github.com/magnus919/hermes-profiles) by [magnus919](https://github.com/magnus919) — Curated profiles for specialist swarms. The largest profile collection in the ecosystem. **[production]**
 - [theheavenlyd3mon/hermes-profiles](https://github.com/theheavenlyd3mon/hermes-profiles) by [theheavenlyd3mon](https://github.com/theheavenlyd3mon) — Persona-driven profiles for orchestration, coding and research. **[beta]**
 - [violin](https://github.com/Strategic-Automation/violin) by [Strategic-Automation](https://github.com/Strategic-Automation) — Supervised pentest profile: 31 playbooks across the OWASP, API and LLM Top 10, with interactive scoping and approval gates before any target-touching command runs. Hermes-native, no extra API keys. **[production]**
+- [wisdomforge-kids-Hermes-profiles](https://github.com/smfworks/wisdomforge-kids-Hermes-profiles) by [smfworks](https://github.com/smfworks) — Parent-operated kit for standing up a private, child-facing profile in one of three age bands, with a separate profile per child rather than a shared adult one. Says plainly that it does not make AI safe; it gives a parent a design they can inspect and refuse. **[beta]**
 
 ---
 
@@ -815,6 +817,7 @@ Runtime variables `${PLUGIN_ROOT}` and `${PLUGIN_DATA}` resolve at load time. Pa
 
 - **[Official Documentation](https://hermes-agent.nousresearch.com/docs/)** — Quickstart, CLI, configuration, gateway, security, skills, memory, MCP, cron, ACP, API, architecture.
 - **[Release Notes](https://github.com/NousResearch/hermes-agent/releases)** — Official changelog with feature highlights and migration notes.
+- [hermes-ai-team](https://github.com/smfworks/hermes-ai-team) by [smfworks](https://github.com/smfworks) — Phase-by-phase guide to building a team of Hermes agents: SOUL, memory, vault, nightly research, kanban and a chief of staff. Written to be read by the agent, not just about it. 36★. **[production]**
 - [hermes-agent-docs](https://github.com/mudrii/hermes-agent-docs) by [mudrii](https://github.com/mudrii) — Comprehensive community documentation. Useful supplement for deployment patterns. **[beta]**
 - [hermes-wsl-ubuntu](https://github.com/metantonio/hermes-wsl-ubuntu) by [metantonio](https://github.com/metantonio) — End-to-end WSL2 + llama.cpp + Qwen3.5 setup with CUDA/Metal acceleration for running Hermes on Windows. **[production]**
 - **[Discord](https://discord.gg/NousResearch)** — Bug reports, feature requests, general discussion.
