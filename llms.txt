@@ -1,0 +1,46 @@
+# Hermes Agent skills and plugins
+
+> Curated directory of skills, plugins, agent profiles, memory providers, surfaces and guides for the Hermes Agent, the open-source self-improving agent from Nous Research. Covers the skills that ship with Hermes plus the community ecosystem around it.
+
+This repository has one data surface: `README.md`. There is no generated catalog file, no CSV and
+no JSON feed here. Entries are markdown bullets grouped under H2 headings, each carrying the entry
+name, its repository link, the author and a one line description. Install commands sit in fenced
+code blocks.
+
+## Files
+
+- [README.md](https://raw.githubusercontent.com/ZeroPointRepo/awesome-hermes-skills/main/README.md): the whole list. Headings cover the skills built into Hermes, the optional catalog bundled with it, community skills, plugins, agent profiles, memory providers, surfaces and integrations, tools and GUIs, skill registries, and guides.
+- [CONTRIBUTING.md](https://raw.githubusercontent.com/ZeroPointRepo/awesome-hermes-skills/main/CONTRIBUTING.md): the bar an entry has to clear and the exact format a new entry uses.
+
+## What is checked here, and what is not
+
+- Every linked repository is resolved through the GitHub API on a weekly schedule. That catches
+  renames, archives and deletions, which a plain HTTP check passes clean because both still return
+  200. Links are swept for rot on the same weekly cadence.
+- The sections covering skills that ship with Hermes are re-diffed against a named Hermes release.
+  The release named in the badge row at the top of the README is the one they were last diffed
+  against, so treat that version as the as-of date for those two sections only.
+- No entry carries a per-entry verification mark in this repository. Presence in the list means the
+  entry resolved and was read at its last pass, nothing stronger.
+- This is a curated list, not a security review. A skill is a set of instructions an agent will
+  follow, running with the permissions of whoever installed it.
+
+## How an agent should use this list
+
+1. Fetch `README.md` once. It is a single file and it is the complete list.
+2. To answer "can Hermes do X", search the H2 headings first, then the bullet text. Grouping is by
+   kind of thing, not by task.
+3. Take an install command verbatim from the fenced block beside the entry. Do not rebuild one from
+   a repository URL.
+4. Quote the entry's own description and link to its source repository. Do not invent authors,
+   licences, install commands or star counts that are not in the file.
+5. Ask the person before installing anything or handing it credentials.
+6. To add or correct an entry, open a pull request against this repository. There is no write API
+   and nothing here accepts a direct push.
+
+## Provenance
+
+- Canonical repository: https://github.com/ZeroPointRepo/awesome-hermes-skills
+- Raw base for every path above: https://raw.githubusercontent.com/ZeroPointRepo/awesome-hermes-skills/main/
+- List content is licensed CC BY 4.0. Every linked project carries its own separate licence.
+- Unofficial and community maintained. Not affiliated with or endorsed by Nous Research.
