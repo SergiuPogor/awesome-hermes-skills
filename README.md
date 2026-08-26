@@ -751,6 +751,7 @@ Deepfake detection for agents that ingest user-submitted media. Detects AI-gener
 > Where Hermes actually meets you — clients, dashboards, chat platforms and devices that talk to a running Hermes gateway.
 
 - [adebnar/hermes-android](https://github.com/adebnar/hermes-android) by [adebnar](https://github.com/adebnar) — Native Android client for the gateway: chat plus sessions, models, cron and usage over Tailscale. **[beta]**
+- [Hermes AI Usage Monitor](https://github.com/masterlf/hermes-ai-usage) by [masterlf](https://github.com/masterlf) — Read-only provider quota and per-profile token telemetry for Hermes Desktop and Web Dashboard, with cache-aware history and no prompt-content collection. **[beta]**
 - [hermes-dashboard](https://github.com/chrisryugj/hermes-dashboard) by [chrisryugj](https://github.com/chrisryugj) — Web dashboard for gateway config, MCP, cron and model management without touching the CLI. **[beta]**
 - [hermes-desktop-avatar](https://github.com/erenciracioglu-dotcom/hermes-desktop-avatar) by [erenciracioglu-dotcom](https://github.com/erenciracioglu-dotcom) — Always-on-top desktop sprite that fronts a local gateway. PySide6, OpenAI-compatible HTTP. **[experimental]**
 - [hermes-live-discord-agent-plugin](https://github.com/Capslockb/hermes-live-discord-agent-plugin) by [Capslockb](https://github.com/Capslockb) — Full-duplex Discord voice with function calling and idle hangup. **[beta]**
