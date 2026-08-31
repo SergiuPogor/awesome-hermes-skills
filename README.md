@@ -729,6 +729,7 @@ Deepfake detection for agents that ingest user-submitted media. Detects AI-gener
 > Swap-in backends for Hermes's memory layer. A provider changes what the agent remembers and how it recalls it — install one and the built-in memory tools route through it.
 
 - [agentcairn](https://github.com/ccf/agentcairn) by [ccf](https://github.com/ccf) — Long-term cross-project memory backed by your own Obsidian vault. Daemonless, plain files, no opaque store. **[beta]**
+- [causal-memory](https://github.com/JingxuanC/causal-memory/tree/main/hermes-plugin) by [JingxuanC](https://github.com/JingxuanC) — Memory provider with a causal core: flat facts plus typed decision→outcome causal edges (caused / enabled / prevented) on one local SQLite store. Survives compaction structurally — the store lives outside the context window. **[beta]**
 - [flowstate-qmd](https://github.com/amanning3390/flowstate-qmd) by [amanning3390](https://github.com/amanning3390) — Anticipatory memory with RAG and vector search. Pre-fetches relevant context before queries hit the agent. **[beta]**
 - [hermes-membase](https://github.com/aristoapp/hermes-membase) by [aristoapp](https://github.com/aristoapp) — Persistent memory provider backed by Membase. **[beta]**
 - [hindsight](https://github.com/vectorize-io/hindsight) by [Vectorize](https://github.com/vectorize-io) — Long-term memory layer with retain/recall/reflect workflows. Semantic + graph + temporal retrieval. Plugin or MCP. **[production]**
