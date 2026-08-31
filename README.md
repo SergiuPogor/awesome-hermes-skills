@@ -5,12 +5,12 @@
 # Awesome Hermes Skills
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Skills Count](https://img.shields.io/badge/skills-364-blue?style=flat-square)](#-table-of-contents)
+[![Skills Count](https://img.shields.io/badge/skills-368-blue?style=flat-square)](#-table-of-contents)
 [![Last Update](https://img.shields.io/github/last-commit/ZeroPointRepo/awesome-hermes-skills?label=Last%20update&style=flat-square)](https://github.com/ZeroPointRepo/awesome-hermes-skills/pulls?q=is%3Apr+is%3Amerged+sort%3Aupdated-desc)
-[![Hermes](https://img.shields.io/badge/Hermes-v0.20.5-purple?style=flat-square)](https://github.com/NousResearch/hermes-agent/releases)
+[![Hermes](https://img.shields.io/badge/Hermes-v0.20.6-purple?style=flat-square)](https://github.com/NousResearch/hermes-agent/releases)
 [![Agent Plugins](https://img.shields.io/badge/Agent%20Plugins-v1.0.0-teal?style=flat-square)](https://agent-plugins.org)
 
-> A curated, install-ready directory for the [Hermes Agent](https://github.com/NousResearch/hermes-agent) ecosystem — the self-improving AI agent from [Nous Research](https://nousresearch.com). Covers the **82 built-in skills** and **117-skill optional catalog** that ship with Hermes v0.20.5, plus **165 community skills, plugins, agent profiles, memory providers, surfaces, and tools** vetted for quality.
+> A curated, install-ready directory for the [Hermes Agent](https://github.com/NousResearch/hermes-agent) ecosystem — the self-improving AI agent from [Nous Research](https://nousresearch.com). Covers the **82 built-in skills** and **117-skill optional catalog** that ship with Hermes v0.20.6, plus **169 community skills, plugins, agent profiles, memory providers, surfaces, and tools** vetted for quality.
 
 Hermes is the only agent with a real learning loop. It writes its own skills from your workflows, searches its own past conversations, and runs anywhere — a $5 VPS, a GPU cluster, serverless, or your laptop. But the agent is only as powerful as the skills you give it. **This list is the shortcut.** Pick three, install in a minute, and your agent is twice as useful by tonight.
 
@@ -100,7 +100,7 @@ A short hand-picked list to get you started. If you install nothing else from th
 *Selection is editorial; the order is not. Picks are listed **most-starred first**, so the ranking is something you can check rather than something you have to trust. Counts re-pulled from the GitHub API 2026-08-24 09:23 UTC; on a list this size they drift within hours, so treat the figure as of that timestamp and the ordering as the durable claim.*
 
 ### 🛠️ mattpocock/skills — Skills For Real Engineers
-**production** · [Matt Pocock](https://github.com/mattpocock) · [Repo](https://github.com/mattpocock/skills) · 235k★
+**production** · [Matt Pocock](https://github.com/mattpocock) · [Repo](https://github.com/mattpocock/skills) · 242.3k★
 
 ```bash
 npx skills@latest add mattpocock/skills
@@ -119,7 +119,7 @@ Web-based workspace with chat, terminal, memory browser, skills manager, and ins
 Open-source companion that auto-evolves, deduplicates, and improves your skill library from real session data. Sits on top of Hermes's built-in skill creation and adds a post-task evolution loop. Native Hermes integration via `~/.hermes/skills`, with safety flows (`skillclaw doctor hermes` / `skillclaw restore hermes`).
 
 ### 🎬 youtube-full
-**production** · [@therohitdas](https://github.com/therohitdas) · [Repo](https://github.com/ZeroPointRepo/youtube-skills) · 553★
+**production** · [@therohitdas](https://github.com/therohitdas) · [Repo](https://github.com/ZeroPointRepo/youtube-skills) · 586★
 
 ```bash
 hermes skills install skills-sh/ZeroPointRepo/youtube-skills/skills/youtube-full
@@ -128,7 +128,7 @@ hermes skills install skills-sh/ZeroPointRepo/youtube-skills/skills/youtube-full
 If your agent can't read YouTube, half the internet is invisible to it. This skill gives Hermes transcript extraction, channel browsing, search, and playlist parsing — no Google API key, and nothing to install or maintain. Powered by [TranscriptAPI](https://transcriptapi.com). Works in Hermes, Claude, OpenClaw and other agent runtimes.
 
 ### 🛡️ resemble-ai/detect-skill
-**beta** · [Resemble AI](https://github.com/resemble-ai) · [Repo](https://github.com/resemble-ai/detect-skill) · 60★
+**beta** · [Resemble AI](https://github.com/resemble-ai) · [Repo](https://github.com/resemble-ai/detect-skill) · 71★
 
 Deepfake detection for agents that ingest user-submitted media. Detects AI-generated audio, image, video, and text. Traces audio source (ElevenLabs, Resemble, etc.), applies invisible watermarks for provenance, and verifies speaker identity. The first thing to install if your agent reads the public internet.
 
@@ -138,7 +138,7 @@ Deepfake detection for agents that ingest user-submitted media. Detects AI-gener
 
 > Hermes ships with **82 built-in skills** out of the box, across 14 categories — loaded and ready the moment you run `hermes`. You don't install these.
 >
-> This is what you already have before you add anything. Most "I need a skill for X" questions are answered here first — and the [optional catalog](#-optional-skills-bundled-with-hermes) below covers 115 more you can switch on.
+> This is what you already have before you add anything. Most "I need a skill for X" questions are answered here first — and the [optional catalog](#-optional-skills-bundled-with-hermes) below covers 117 more you can switch on.
 
 <details open>
 <summary><h3 style="display:inline">🍎 Apple (4)</h3></summary>
@@ -598,7 +598,7 @@ Deepfake detection for agents that ingest user-submitted media. Detects AI-gener
 - [skillsdotnet](https://github.com/PederHP/skillsdotnet) by [PederHP](https://github.com/PederHP) — C# implementation of agentskills.io with MCP integration. **[beta]**
 - [super-hermes](https://github.com/Cranot/super-hermes) by [Cranot](https://github.com/Cranot) — Teaches Hermes to write its own analytical prompts. Meta-reasoning before execution. **[experimental]**
 - [windows-terminal-hygiene](https://github.com/vollegrewar/windows-terminal-hygiene) by [vollegrewar](https://github.com/vollegrewar) — Pre-flight checklist that keeps agent terminal commands from hanging on Windows: timeouts, non-interactive flags, pty, encoding, and a 3-minute recovery flow. **[beta]**
-- [wondelai/skills](https://github.com/wondelai/skills) by [wondelai](https://github.com/wondelai) — Cross-platform agent skills for Claude Code and agentskills.io platforms. 2k★. **[production]**
+- [wondelai/skills](https://github.com/wondelai/skills) by [wondelai](https://github.com/wondelai) — Cross-platform agent skills for Claude Code and agentskills.io platforms. 2.1k★. **[production]**
 
 ### 🌐 Browser & Web
 
@@ -678,7 +678,7 @@ Deepfake detection for agents that ingest user-submitted media. Detects AI-gener
 
 ### 🔐 Security & Detection
 
-- [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) by [mukul975](https://github.com/mukul975) — 753+ structured cybersecurity skills mapped to MITRE ATT&CK. 31k★. **[production]**
+- [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) by [mukul975](https://github.com/mukul975) — 753+ structured cybersecurity skills mapped to MITRE ATT&CK. 31.8k★. **[production]**
 - [hermes-agent-camel](https://github.com/nativ3ai/hermes-agent-camel) by [nativ3ai](https://github.com/nativ3ai) — Hermes with integrated CaMeL trust boundaries. Formal trust verification for safety-critical deployments. **[beta]**
 - [incognito-mode](https://github.com/GenmetsuWenxuePress/hermes-skills) by [幻灭文学出版社](https://github.com/GenmetsuWenxuePress) — Defense-in-depth incognito mode: PID-locked sandbox, shell history suppression, 10-step reverse audit with Python secure wipe, subagent inheritance protocol. **[beta]**
 - [resemble-ai/detect-skill](https://github.com/resemble-ai/detect-skill) by [Resemble AI](https://github.com/resemble-ai) — Deepfake detection: AI-generated audio/image/video/text, source tracing, watermarking, speaker ID. **[beta]**
@@ -821,7 +821,7 @@ Runtime variables `${PLUGIN_ROOT}` and `${PLUGIN_DATA}` resolve at load time. Pa
 
 - **[Official Documentation](https://hermes-agent.nousresearch.com/docs/)** — Quickstart, CLI, configuration, gateway, security, skills, memory, MCP, cron, ACP, API, architecture.
 - **[Release Notes](https://github.com/NousResearch/hermes-agent/releases)** — Official changelog with feature highlights and migration notes.
-- [hermes-ai-team](https://github.com/smfworks/hermes-ai-team) by [smfworks](https://github.com/smfworks) — Phase-by-phase guide to building a team of Hermes agents: SOUL, memory, vault, nightly research, kanban and a chief of staff. Written to be read by the agent, not just about it. 36★. **[production]**
+- [hermes-ai-team](https://github.com/smfworks/hermes-ai-team) by [smfworks](https://github.com/smfworks) — Phase-by-phase guide to building a team of Hermes agents: SOUL, memory, vault, nightly research, kanban and a chief of staff. Written to be read by the agent, not just about it. 55★. **[production]**
 - [hermes-agent-docs](https://github.com/mudrii/hermes-agent-docs) by [mudrii](https://github.com/mudrii) — Comprehensive community documentation. Useful supplement for deployment patterns. **[beta]**
 - [hermes-wsl-ubuntu](https://github.com/metantonio/hermes-wsl-ubuntu) by [metantonio](https://github.com/metantonio) — End-to-end WSL2 + llama.cpp + Qwen3.5 setup with CUDA/Metal acceleration for running Hermes on Windows. **[production]**
 - **[Discord](https://discord.gg/NousResearch)** — Bug reports, feature requests, general discussion.
