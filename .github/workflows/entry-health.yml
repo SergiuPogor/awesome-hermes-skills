@@ -20,7 +20,9 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  # write, since 2026-09-02: the canonical-name step below does not merely report a rename,
+  # it rewrites the entry. Reporting a hijack surface and leaving it open is not a check.
+  contents: write
   issues: write
 
 # One walk at a time, per repo. Every scheduled workflow here walks the same catalog through the
@@ -46,8 +48,48 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Re-resolve every entry against its canonical name
+        # SECURITY, not hygiene. When a repository is renamed or transferred, the old path keeps
+        # redirecting until somebody claims the vacated name; from that moment every link we
+        # publish points at whoever took it, and nothing looks broken in the meantime because the
+        # redirect returns 200 the whole time. Keyed by IMMUTABLE repository id: resolving the
+        # slug follows the redirect, so once a squatter holds the old name a slug-keyed lookup
+        # returns the squatter and confirms our stale link as canonical.
+        # Runs FIRST so a rename found today is already fixed on the page every step below reads.
+        # continue-on-error, not `if: always()` on everything downstream: a walk that could not
+        # establish 95% of its facts exits non-zero on purpose, and that must show as a failed
+        # step. It must not also cancel the catalog rebuild underneath it — the two read
+        # different sources and a REST hiccup in one is not a reason to publish nothing.
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/resolve-names.mjs README.md CONTRIBUTING.md
+
+      - name: Add the canonical-name result to the run summary
+        # A silent clean run and a silent broken run look identical. The report always says how
+        # many were resolved by immutable id, how many by slug, and how many were not established.
+        if: always()
+        run: cat canonical-names-report.md >> "$GITHUB_STEP_SUMMARY" || true
+
+      - name: Commit the canonical names
+        # The rewrite is the point. A run that found a rename and pushed nothing has left the
+        # vacated slug in the list for another week.
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          TRACKED="README.md CONTRIBUTING.md .github/data/repo-ids.json"
+          if git diff --quiet -- $TRACKED; then
+            echo "No canonical-name change."
+            exit 0
+          fi
+          git add $TRACKED
+          git commit -m "chore: re-resolve canonical entry names [skip ci]"
+          git push
+
       - name: Resolve every linked repo through the GitHub API
         id: check
+        if: always()
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node .github/scripts/entry-health.mjs README.md CONTRIBUTING.md

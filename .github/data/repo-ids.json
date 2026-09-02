@@ -1,0 +1,629 @@
+{
+  "_note": "GitHub numeric repository id for every entry this list links to, recorded the first time the entry resolves. The id is immutable and survives a rename or a transfer; the slug does not, and once a vacated slug is claimed by somebody else, a slug-keyed lookup returns the new owner and reports the stale link as correct. Written by .github/scripts/resolve-names.mjs, never edited by hand.",
+  "ids": {
+    "0xnyk/openclaw-to-hermes": {
+      "id": 1181469809,
+      "full_name": "0xNyk/openclaw-to-hermes"
+    },
+    "0xrsydn/nix-hermes-agent": {
+      "id": 1182767219,
+      "full_name": "0xrsydn/nix-hermes-agent"
+    },
+    "1ilkhamov/opencode-hermes-multiagent": {
+      "id": 1125878323,
+      "full_name": "1ilkhamov/opencode-hermes-multiagent"
+    },
+    "33hodl/hermes-startup": {
+      "id": 1314958683,
+      "full_name": "33hodl/hermes-startup"
+    },
+    "410979729/scope-recall-hermes": {
+      "id": 1239699520,
+      "full_name": "410979729/scope-recall-hermes"
+    },
+    "42-evey/evey-bridge-plugin": {
+      "id": 1187541680,
+      "full_name": "42-evey/evey-bridge-plugin"
+    },
+    "42-evey/evey-setup": {
+      "id": 1187563922,
+      "full_name": "42-evey/evey-setup"
+    },
+    "42-evey/hermes-plugins": {
+      "id": 1190546286,
+      "full_name": "42-evey/hermes-plugins"
+    },
+    "8bit64k/cronalytics": {
+      "id": 1236910063,
+      "full_name": "8bit64k/cronalytics"
+    },
+    "a5c-ai/babysitter": {
+      "id": 1128400700,
+      "full_name": "a5c-ai/babysitter"
+    },
+    "adebnar/hermes-android": {
+      "id": 1273721854,
+      "full_name": "adebnar/hermes-android"
+    },
+    "agent-analytics/agent-analytics-hermes-plugin": {
+      "id": 1216401140,
+      "full_name": "Agent-Analytics/agent-analytics-hermes-plugin"
+    },
+    "agentplugins/agent-plugins-spec": {
+      "id": 1200071160,
+      "full_name": "agentplugins/agent-plugins-spec"
+    },
+    "ahmdngi/consensus-mcp-hermes": {
+      "id": 1282317358,
+      "full_name": "ahmdngi/consensus-mcp-hermes"
+    },
+    "aivanelabs/ai-rpa": {
+      "id": 1196834600,
+      "full_name": "aivanelabs/ai-rpa"
+    },
+    "aivrar/portable-hermes-agent": {
+      "id": 1182759510,
+      "full_name": "aivrar/portable-hermes-agent"
+    },
+    "alexeyisme/hermes-spotify-skill": {
+      "id": 1206422456,
+      "full_name": "Alexeyisme/hermes-spotify-skill"
+    },
+    "allendior/private-agent": {
+      "id": 1336795018,
+      "full_name": "Allendior/private-agent"
+    },
+    "amanning3390/flowstate-qmd": {
+      "id": 1181811694,
+      "full_name": "amanning3390/flowstate-qmd"
+    },
+    "amanning3390/hermeshub": {
+      "id": 1184470228,
+      "full_name": "amanning3390/hermeshub"
+    },
+    "amap-ml/skillclaw": {
+      "id": 1206566990,
+      "full_name": "AMAP-ML/SkillClaw"
+    },
+    "andrew-girgis/microsoft-workspace-skill": {
+      "id": 1210846354,
+      "full_name": "Andrew-Girgis/microsoft-workspace-skill"
+    },
+    "anpicasso/hermes-plugin-chrome-profiles": {
+      "id": 1184570043,
+      "full_name": "anpicasso/hermes-plugin-chrome-profiles"
+    },
+    "aristoapp/hermes-membase": {
+      "id": 1215602835,
+      "full_name": "aristoapp/hermes-membase"
+    },
+    "armelhbobdad/bmad-module-skill-forge": {
+      "id": 1157249238,
+      "full_name": "armelhbobdad/bmad-module-skill-forge"
+    },
+    "atlasomnia/donna-starter": {
+      "id": 1324382874,
+      "full_name": "AtlasOmnia/donna-starter"
+    },
+    "avansaber/erpclaw": {
+      "id": 1168233220,
+      "full_name": "avansaber/erpclaw"
+    },
+    "barkermoney/barker-mcp": {
+      "id": 1201448925,
+      "full_name": "barkermoney/barker-mcp"
+    },
+    "beardthelion/hermes-skill-distillation": {
+      "id": 1182086409,
+      "full_name": "beardthelion/hermes-skill-distillation"
+    },
+    "beiyuii/personal-api-skill": {
+      "id": 1215274814,
+      "full_name": "beiyuii/personal-api-skill"
+    },
+    "bekservice/famulor-skill": {
+      "id": 1191583165,
+      "full_name": "bekservice/Famulor-Skill"
+    },
+    "bergside/typeui": {
+      "id": 1171412548,
+      "full_name": "bergside/typeui"
+    },
+    "bielcarpi/hermes-live-voice": {
+      "id": 1277842157,
+      "full_name": "bielcarpi/hermes-live-voice"
+    },
+    "bigph00t/hermescraft": {
+      "id": 1182163057,
+      "full_name": "bigph00t/hermescraft"
+    },
+    "bin1874/before-you-build-skill": {
+      "id": 1248189340,
+      "full_name": "bin1874/before-you-build-skill"
+    },
+    "black-forest-labs/skills": {
+      "id": 1140927044,
+      "full_name": "black-forest-labs/skills"
+    },
+    "brajendrak00068/agentic-ai-video-production": {
+      "id": 1241246510,
+      "full_name": "brajendrak00068/agentic-ai-video-production"
+    },
+    "builderz-labs/mission-control": {
+      "id": 1156797572,
+      "full_name": "builderz-labs/mission-control"
+    },
+    "cablate/agentic-mcp-skill": {
+      "id": 1132679756,
+      "full_name": "cablate/Agentic-MCP-Skill"
+    },
+    "capslockb/hermes-live-discord-agent-plugin": {
+      "id": 1259721870,
+      "full_name": "Capslockb/hermes-live-discord-agent-plugin"
+    },
+    "ccf/agentcairn": {
+      "id": 1263220935,
+      "full_name": "ccf/agentcairn"
+    },
+    "chigwell/skilldock.io": {
+      "id": 1154390625,
+      "full_name": "chigwell/skilldock.io"
+    },
+    "chrisryugj/hermes-dashboard": {
+      "id": 1207912397,
+      "full_name": "chrisryugj/hermes-dashboard"
+    },
+    "claudiodrews/memory-os": {
+      "id": 1255412388,
+      "full_name": "ClaudioDrews/memory-os"
+    },
+    "corsenai/hermes-connector": {
+      "id": 1307026151,
+      "full_name": "CorsenAI/hermes-connector"
+    },
+    "cranot/super-hermes": {
+      "id": 1174539837,
+      "full_name": "Cranot/super-hermes"
+    },
+    "cuongdev/hermes-zalo-plugin": {
+      "id": 1259280063,
+      "full_name": "cuongdev/hermes-zalo-plugin"
+    },
+    "cx2002302-lang/zettelkasten-second-memory": {
+      "id": 1234839530,
+      "full_name": "cx2002302-lang/zettelkasten-second-memory"
+    },
+    "dadmin88/hermes-profile-packs": {
+      "id": 1342828468,
+      "full_name": "Dadmin88/hermes-profile-packs"
+    },
+    "danielli202/hermes-tag": {
+      "id": 1280024384,
+      "full_name": "DanielLi202/hermes-tag"
+    },
+    "dodo-reach/hermes-desktop": {
+      "id": 1205375924,
+      "full_name": "dodo-reach/hermes-desktop"
+    },
+    "dougtrajano/pydantic-ai-skills": {
+      "id": 1118556483,
+      "full_name": "DougTrajano/pydantic-ai-skills"
+    },
+    "drdroidlab/open-index": {
+      "id": 1318866816,
+      "full_name": "DrDroidLab/open-index"
+    },
+    "eggyrooch-blip/hermes-multitenancy": {
+      "id": 1221358460,
+      "full_name": "eggyrooch-blip/hermes-multitenancy"
+    },
+    "ekkolearnai/hermes-studio": {
+      "id": 1207639951,
+      "full_name": "EKKOLearnAI/hermes-studio"
+    },
+    "elkimek/honcho-self-hosted": {
+      "id": 1199228218,
+      "full_name": "elkimek/honcho-self-hosted"
+    },
+    "erenciracioglu-dotcom/hermes-desktop-avatar": {
+      "id": 1313214764,
+      "full_name": "erenciracioglu-dotcom/hermes-desktop-avatar"
+    },
+    "fahrenheitresearch/hermes-weather-plugin": {
+      "id": 1188833195,
+      "full_name": "FahrenheitResearch/hermes-weather-plugin"
+    },
+    "fahrenheitresearch/hermes-wxtrain-plugin": {
+      "id": 1188833209,
+      "full_name": "FahrenheitResearch/hermes-wxtrain-plugin"
+    },
+    "forcewake/hermes-conductor": {
+      "id": 1344110151,
+      "full_name": "forcewake/hermes-conductor"
+    },
+    "genmetsuwenxuepress/hermes-skills": {
+      "id": 1312760917,
+      "full_name": "GenmetsuWenxuePress/hermes-skills"
+    },
+    "gizdusum/hermes-blockchain-oracle": {
+      "id": 1168892361,
+      "full_name": "gizdusum/hermes-blockchain-oracle"
+    },
+    "hermes-labs-ai/lintlang": {
+      "id": 1168980518,
+      "full_name": "hermes-labs-ai/lintlang"
+    },
+    "hmbown/nemohermes": {
+      "id": 1186650612,
+      "full_name": "Hmbown/NemoHermes"
+    },
+    "hmbown/wizards-of-the-ghosts": {
+      "id": 1177327736,
+      "full_name": "Hmbown/Wizards-of-the-Ghosts"
+    },
+    "humalike/hermes-humalike-plugin": {
+      "id": 1273565575,
+      "full_name": "Humalike/hermes-humalike-plugin"
+    },
+    "hxsteric/mercury": {
+      "id": 1182734549,
+      "full_name": "hxsteric/mercury"
+    },
+    "internet-court/internet-court-skill": {
+      "id": 1271239690,
+      "full_name": "internet-court/internet-court-skill"
+    },
+    "janyork/llm-wiki-cli": {
+      "id": 1316178203,
+      "full_name": "JanYork/llm-wiki-cli"
+    },
+    "jasperan/orahermes-agent": {
+      "id": 1168909534,
+      "full_name": "jasperan/orahermes-agent"
+    },
+    "jingxuanc/causal-memory": {
+      "id": 1312924592,
+      "full_name": "JingxuanC/causal-memory"
+    },
+    "johnsje183/hermes-telegram-checklist": {
+      "id": 1307878614,
+      "full_name": "johnsje183/hermes-telegram-checklist"
+    },
+    "joshuaswarren/remnic": {
+      "id": 1150677698,
+      "full_name": "joshuaswarren/remnic"
+    },
+    "kwanmxiii-bit/loras-training-tap-skill": {
+      "id": 1284114363,
+      "full_name": "kwanmxiii-bit/Loras-training-tap-skill"
+    },
+    "kyc-rip/ripley-xmr-gateway": {
+      "id": 1167184660,
+      "full_name": "KYC-rip/ripley-xmr-gateway"
+    },
+    "lewfkrad/hermes-agents-guide-to-the-galaxy": {
+      "id": 1295512859,
+      "full_name": "lEWFkRAD/hermes-agents-guide-to-the-galaxy"
+    },
+    "lingjiuu/hermes-dynamic-workflows": {
+      "id": 1259872947,
+      "full_name": "lingjiuu/hermes-dynamic-workflows"
+    },
+    "lnvestor/twitr-skills": {
+      "id": 1313069417,
+      "full_name": "lnvestor/twitr-skills"
+    },
+    "magnus919/hermes-profiles": {
+      "id": 1260110388,
+      "full_name": "magnus919/hermes-profiles"
+    },
+    "masterlf/hermes-ai-usage": {
+      "id": 1311139178,
+      "full_name": "masterlf/hermes-ai-usage"
+    },
+    "matdev83/hermes-cursor-dispatcher": {
+      "id": 1305893816,
+      "full_name": "matdev83/hermes-cursor-dispatcher"
+    },
+    "mattpocock/skills": {
+      "id": 1148788086,
+      "full_name": "mattpocock/skills"
+    },
+    "mauricemohr88-debug/hermes-plugin-guard": {
+      "id": 1309564271,
+      "full_name": "mauricemohr88-debug/hermes-plugin-guard"
+    },
+    "merchantmy/meshtastic-plugin": {
+      "id": 1244715090,
+      "full_name": "merchantmy/meshtastic-plugin"
+    },
+    "merit-systems/agentcash-skills": {
+      "id": 1161330810,
+      "full_name": "Merit-Systems/agentcash-skills"
+    },
+    "metantonio/hermes-wsl-ubuntu": {
+      "id": 1185490403,
+      "full_name": "metantonio/hermes-wsl-ubuntu"
+    },
+    "moonlight-lupin/agent-skills": {
+      "id": 1293924437,
+      "full_name": "moonlight-lupin/agent-skills"
+    },
+    "mrpeter2025/clawsocial-hermes-plugin": {
+      "id": 1209071081,
+      "full_name": "mrpeter2025/clawsocial-hermes-plugin"
+    },
+    "mudrii/hermes-agent-docs": {
+      "id": 1183207023,
+      "full_name": "mudrii/hermes-agent-docs"
+    },
+    "mukul975/anthropic-cybersecurity-skills": {
+      "id": 1166506614,
+      "full_name": "mukul975/Anthropic-Cybersecurity-Skills"
+    },
+    "nativ3ai/hermes-agent-camel": {
+      "id": 1185742707,
+      "full_name": "nativ3ai/hermes-agent-camel"
+    },
+    "nativ3ai/hermes-payguard": {
+      "id": 1187294870,
+      "full_name": "nativ3ai/hermes-payguard"
+    },
+    "nesquena/hermes-webui": {
+      "id": 1196617276,
+      "full_name": "nesquena/hermes-webui"
+    },
+    "newturn2017/hermes-profile-kit": {
+      "id": 1233663152,
+      "full_name": "NewTurn2017/hermes-profile-kit"
+    },
+    "nousresearch/hermes-agent": {
+      "id": 1024554267,
+      "full_name": "NousResearch/hermes-agent"
+    },
+    "nowork-studio/notfair-plugin": {
+      "id": 1193374549,
+      "full_name": "nowork-studio/notfair-plugin"
+    },
+    "nujovich/hermes-telemetry": {
+      "id": 1254916915,
+      "full_name": "nujovich/hermes-telemetry"
+    },
+    "ogallotti/rtk-hermes": {
+      "id": 1201690071,
+      "full_name": "ogallotti/rtk-hermes"
+    },
+    "orkas-ai/orkas-videostudio": {
+      "id": 1285161033,
+      "full_name": "Orkas-AI/Orkas-VideoStudio"
+    },
+    "othmanadi/planning-with-files": {
+      "id": 1127110039,
+      "full_name": "OthmanAdi/planning-with-files"
+    },
+    "outsourc-e/hermes-workspace": {
+      "id": 1182887460,
+      "full_name": "outsourc-e/hermes-workspace"
+    },
+    "pederhp/skillsdotnet": {
+      "id": 1158576144,
+      "full_name": "PederHP/skillsdotnet"
+    },
+    "pingchesu/hermes-curator-evolver": {
+      "id": 1227831105,
+      "full_name": "pingchesu/hermes-curator-evolver"
+    },
+    "plur-ai/plur": {
+      "id": 1186683138,
+      "full_name": "plur-ai/plur"
+    },
+    "ptaranat/zeromem": {
+      "id": 1324124790,
+      "full_name": "ptaranat/zeromem"
+    },
+    "pyrate-llama/hermes-ui": {
+      "id": 1200209823,
+      "full_name": "pyrate-llama/hermes-ui"
+    },
+    "raulvidis/hermes-android": {
+      "id": 1181826391,
+      "full_name": "raulvidis/hermes-android"
+    },
+    "raulvidis/hermes-cloudflare": {
+      "id": 1185320878,
+      "full_name": "raulvidis/hermes-cloudflare"
+    },
+    "reinamaccredy/maestro": {
+      "id": 1119669000,
+      "full_name": "ReinaMacCredy/maestro"
+    },
+    "resemble-ai/detect-skill": {
+      "id": 1205242089,
+      "full_name": "resemble-ai/detect-skill"
+    },
+    "ridwannurudeen/hermes-council": {
+      "id": 1179285655,
+      "full_name": "Ridwannurudeen/hermes-council"
+    },
+    "robbyczgw-cla/hermes-web-search-plus": {
+      "id": 1184318458,
+      "full_name": "robbyczgw-cla/hermes-web-search-plus"
+    },
+    "rodmarkun/anihermes": {
+      "id": 1182320060,
+      "full_name": "rodmarkun/anihermes"
+    },
+    "romanescu11/hermes-skill-factory": {
+      "id": 1185283077,
+      "full_name": "Romanescu11/hermes-skill-factory"
+    },
+    "runapi-ai/cli-skill": {
+      "id": 1243614646,
+      "full_name": "runapi-ai/cli-skill"
+    },
+    "sanchomuzax/hermes-webui": {
+      "id": 1188925395,
+      "full_name": "sanchomuzax/hermes-webui"
+    },
+    "scavio-ai/hermes-agent": {
+      "id": 1339287988,
+      "full_name": "scavio-ai/hermes-agent"
+    },
+    "screenpipe/screenpipe": {
+      "id": 817326197,
+      "full_name": "screenpipe/screenpipe"
+    },
+    "secondbrainstarter/verified-memory-vault": {
+      "id": 1344864606,
+      "full_name": "secondbrainstarter/verified-memory-vault"
+    },
+    "signet-ai/signetai": {
+      "id": 1155093426,
+      "full_name": "Signet-AI/signetai"
+    },
+    "smartcontractkit/chainlink-agent-skills": {
+      "id": 1154952967,
+      "full_name": "smartcontractkit/chainlink-agent-skills"
+    },
+    "smfworks/hermes-ai-team": {
+      "id": 1340589130,
+      "full_name": "smfworks/hermes-ai-team"
+    },
+    "smfworks/wisdomforge-kids-hermes-profiles": {
+      "id": 1343021941,
+      "full_name": "smfworks/wisdomforge-kids-Hermes-profiles"
+    },
+    "snehal707/hermes-mars-rover": {
+      "id": 1177157596,
+      "full_name": "Snehal707/Hermes-mars-rover"
+    },
+    "snyk/agent-scan": {
+      "id": 962024783,
+      "full_name": "snyk/agent-scan"
+    },
+    "strategic-automation/violin": {
+      "id": 1291466723,
+      "full_name": "Strategic-Automation/violin"
+    },
+    "supernovae-st/nika": {
+      "id": 1126625946,
+      "full_name": "supernovae-st/nika"
+    },
+    "teknium1/hermes-miniverse": {
+      "id": 1180393356,
+      "full_name": "teknium1/hermes-miniverse"
+    },
+    "thecolonyai/colony-skill": {
+      "id": 1201895430,
+      "full_name": "TheColonyAI/colony-skill"
+    },
+    "theheavenlyd3mon/hermes-profiles": {
+      "id": 1270436690,
+      "full_name": "theheavenlyd3mon/hermes-profiles"
+    },
+    "tiann/execplan-skill": {
+      "id": 1119874845,
+      "full_name": "tiann/execplan-skill"
+    },
+    "tlehman/litprog-skill": {
+      "id": 1178434749,
+      "full_name": "tlehman/litprog-skill"
+    },
+    "true402/hermes-skills": {
+      "id": 1312685828,
+      "full_name": "true402/hermes-skills"
+    },
+    "uizze/uizze": {
+      "id": 1301842069,
+      "full_name": "uizze/uizze"
+    },
+    "unitedideas/nothumansearch-mcp": {
+      "id": 1211102327,
+      "full_name": "unitedideas/nothumansearch-mcp"
+    },
+    "unmodeled-tyler/vessel-browser": {
+      "id": 1175081210,
+      "full_name": "unmodeled-tyler/vessel-browser"
+    },
+    "vectorize-io/hindsight": {
+      "id": 1086419061,
+      "full_name": "vectorize-io/hindsight"
+    },
+    "vollegrewar/windows-terminal-hygiene": {
+      "id": 1332340643,
+      "full_name": "vollegrewar/windows-terminal-hygiene"
+    },
+    "vostride/agent-qa": {
+      "id": 1232322871,
+      "full_name": "vostride/agent-qa"
+    },
+    "wondelai/skills": {
+      "id": 1145158024,
+      "full_name": "wondelai/skills"
+    },
+    "wordbricks/skills": {
+      "id": 1177512949,
+      "full_name": "wordbricks/skills"
+    },
+    "xmbshwll/hermes-agent-docker": {
+      "id": 1186564626,
+      "full_name": "xmbshwll/hermes-agent-docker"
+    },
+    "xquik-dev/hermes-tweet": {
+      "id": 1230366935,
+      "full_name": "Xquik-dev/hermes-tweet"
+    },
+    "xquik-dev/tweetclaw": {
+      "id": 1180792440,
+      "full_name": "Xquik-dev/tweetclaw"
+    },
+    "xuyang-liu16/hermes-code-bridge": {
+      "id": 1252551939,
+      "full_name": "xuyang-liu16/hermes-code-bridge"
+    },
+    "yantrikos/yantrikdb-hermes-plugin": {
+      "id": 1211008223,
+      "full_name": "yantrikos/yantrikdb-hermes-plugin"
+    },
+    "yonkoo11/hermes-dojo": {
+      "id": 1181270882,
+      "full_name": "Yonkoo11/hermes-dojo"
+    },
+    "zeropointrepo/awesome-agent-plugins": {
+      "id": 1332056401,
+      "full_name": "ZeroPointRepo/awesome-agent-plugins"
+    },
+    "zeropointrepo/awesome-cursor-plugins": {
+      "id": 1345761300,
+      "full_name": "ZeroPointRepo/awesome-cursor-plugins"
+    },
+    "zeropointrepo/awesome-dsh-plugins": {
+      "id": 1341546900,
+      "full_name": "ZeroPointRepo/awesome-dsh-plugins"
+    },
+    "zeropointrepo/awesome-fx-skills": {
+      "id": 1343444151,
+      "full_name": "ZeroPointRepo/awesome-fx-skills"
+    },
+    "zeropointrepo/awesome-grok-bot": {
+      "id": 1332067090,
+      "full_name": "ZeroPointRepo/awesome-grok-bot"
+    },
+    "zeropointrepo/awesome-hermes-skills": {
+      "id": 1223597497,
+      "full_name": "ZeroPointRepo/awesome-hermes-skills"
+    },
+    "zeropointrepo/youtube-skills": {
+      "id": 1147294830,
+      "full_name": "ZeroPointRepo/youtube-skills"
+    },
+    "zeropointrepo/zillow-skills": {
+      "id": 1236430521,
+      "full_name": "ZeroPointRepo/zillow-skills"
+    },
+    "zoniboy00/aivpn": {
+      "id": 1338237233,
+      "full_name": "ZoniBoy00/aivpn"
+    }
+  }
+}
